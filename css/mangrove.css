@@ -7004,7 +7004,7 @@ legend {
   position: fixed;
 }
 body {
-  background-image: url('../img/greens.jpg');
+  background-image: url('../img/greens-crushed.jpg');
   background-position: 0% 90%;
 }
 .jumbotron {
@@ -7036,7 +7036,7 @@ br.shallow {
   margin: 24px 0;
 }
 .bubble {
-  background: url('../img/greens.jpg') 100% 40%;
+  background: url('../img/greens-crushed.jpg') 100% 40%;
   height: 155px;
   width: 220px;
   border-radius: 100%;
