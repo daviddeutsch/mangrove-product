@@ -7072,3 +7072,14 @@ br.shallow {
 .impact-shallow {
   line-height: 0%;
 }
+.icons-ul-big {
+  margin-left: 128px;
+}
+.icons-ul-big li {
+  min-height: 70px;
+  padding-top: 6px;
+}
+.icons-ul-big [class^="icon-"],
+.icons-ul-big [class*=" icon-"] {
+  margin-top: 24px;
+}
