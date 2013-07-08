@@ -7019,6 +7019,9 @@ body {
 .jumbotron p {
   color: #fff;
 }
+br.shallow {
+  line-height: 50%;
+}
 .white-backdrop {
   background: #fff;
 }
@@ -7064,7 +7067,7 @@ body {
   font-size: 15.75px;
 }
 .impact-large {
-  font-size: 26.25px;
+  font-size: 24.75px;
 }
 .impact-shallow {
   line-height: 0%;
