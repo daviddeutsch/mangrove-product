@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="mangroveApp">
 <head>
 	<meta charset="utf-8">
 	<title>mangrove: The package manager from valanx</title>
@@ -11,6 +11,8 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+	<script src="js/ui-bootstrap-tpls-0.4.0.min.js"></script>
+	<script src="js/mangrove.js"></script>
 </head>
 <body>
 <header id="overview" class="jumbotron subhead">
@@ -52,7 +54,7 @@
 
 	<br />
 
-	<img src="http://placehold.it/960x450&text=Interface Screenshot">
+	<img src="http://placehold.it/960x450&text=Interface Screenshot" />
 
 	<h4>So - what's a <strong>package manager</strong>?</h4>
 	<p>A package manager helps you install software without having to copy files or links into your system. They connect you to sources of packages </p>
@@ -60,7 +62,7 @@
 	<p>For instance - app store are a popular way to manage packages (those packages simply happen to be entire applications) or you might have used one to update existing software on your computer with an automatic updater (in turn being a package manager for a single application).</p>
 	<p>mangrove brings that concept into the joomla world in a more elegant way than existing solutions.</p>
 
-	<img src="http://placehold.it/960x450&text=Package Flowchart">
+	<img src="http://placehold.it/960x450&text=Package Flowchart" />
 
 	<br />
 	<h4 class="text-center">Who are <strong>you</strong>?</h4>
@@ -103,48 +105,78 @@
 		<li>
 			<i class="icon-circle-blank icon-4x icon-li"></i>
 			<h5>Install <strong>less</strong></h5>
-			<p>Only get the parts (modules, processors, MIs, translations, etc.) that you need</p>
+			<p>Only get the parts (modules, plugins, translations, etc.) that you need.</p>
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Package Selection" />
+					</p>
+				</div>
+			</div>
 		</li>
 		<li>
 			<i class="icon-dashboard icon-4x icon-li"></i>
 			<h5>Install a lot <strong>faster</strong></h5>
-			<p>Including one-click (and automatic) installs and updates</p>
+			<p>Including one-click (and automatic) installs and updates.</p>
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">How fast, really?</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Speed demo?" />
+					</p>
+				</div>
+			</div>
 		</li>
 		<li>
 			<i class="icon-cloud-download icon-4x icon-li"></i>
 			<h5>Get <strong>new features</strong> faster</h5>
-			<p>No more waiting for the next "big" release, things like new MIs or processors are available as soon as I'm done coding</p>
+			<p>No more waiting for the next "big" release, get plugins and features ahead of major releases.</p>
 		</li>
 		<li>
 			<i class="icon-wrench icon-4x icon-li"></i>
 			<h5>Deploy development builds <strong>without the headaches</strong></h5>
 			<p>Sometimes, you need to use bleeding edge software. If everything goes right, that gets you all the fixes you need. Unfortunately, however, you may also get some new bugs you didn't want.</p>
 			<p>With mangrove, software developers can split off fixes into separate branches so you only get the version you need, not all the changes that you're not ready for, yet (for instance when receiving support on a bug).</p>
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Dev Builds" />
+					</p>
+				</div>
+			</div>
 		</li>
 	</ul>
 
-	<img src="http://placehold.it/960x450&text=Screenshot">
+	<img src="http://placehold.it/960x450&text=Screenshot" />
 
 	<h4 id="sitedevelopers">What's in it for... <strong>Site Developers</strong>?</h4>
 	<ul class="icons-ul icons-ul-big">
 		<li>
 			<i class="icon-dashboard icon-4x icon-li"></i>
 			<h5><strong>Deploy software</strong> to your clients <strong>at hyperspeed</strong></h5>
-			<p>We're giving <em>you</em> the power over your own clients instead of imposing ourselves</p>
+			<p>We're giving <em>you</em> the power over your own clients instead of imposing ourselves.</p>
 		</li>
 		<li>
 			<i class="icon-random icon-4x icon-li"></i>
 			<h5><strong>Manage</strong> your <strong>sources</strong></h5>
-			<p>Including your own (which might be transparent relays to other servers)</p>
+			<p>Including your own (which might be transparent relays to other servers).</p>
 		</li>
 		<li>
 			<i class="icon-search icon-4x icon-li"></i>
 			<h5><strong>Pick and choose</strong> updates</h5>
-			<p>Clients trust <em>you</em> with their site, so <em>you</em> should be in charge of making sure they're happy</p>
+			<p>Clients trust <em>you</em> with their site, so <em>you</em> should be in charge of making sure they're happy.</p>
 		</li>
 	</ul>
 
-	<img src="http://placehold.it/960x450&text=Screenshot">
+	<img src="http://placehold.it/960x450&text=Screenshot" />
 
 	<h4 id="softwaredevelopers">What's in it for... <strong>Software Developers</strong>?</h4>
 
@@ -153,38 +185,91 @@
 			<i class="icon-sitemap icon-4x icon-li"></i>
 			<h5><strong>Distributed &amp; Decentralized</strong></h5>
 			<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Decentralization" />
+					</p>
+				</div>
+			</div>
 		</li>
 		<li>
 			<i class="icon-puzzle-piece icon-4x icon-li"></i>
 			<h5><strong>Modularize</strong> your projects</h5>
 			<p>Components, Plugins, Modules, Translations&hellip; Applications can get pretty hard to manage with all the small parts you have to keep track of in your codebase. With mangrove, you can dispose of complicated build scripts or endless package fiddling. We even generate those annoying .xml files for you, if you want!</p>
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Modularization" />
+					</p>
+				</div>
+			</div>
 		</li>
 		<li>
 			<i class="icon-github icon-4x icon-li"></i>
 			<h5>Connects to <strong>GitHub</strong></h5>
-			<p>Direct integration, including branches (integration with other services planned)</p>
+			<p>Direct integration, including branches and ticket information. (Integration with other services possible or planned.)</p>
 		</li>
 		<li>
 			<i class="icon-eur icon-4x icon-li"></i>
 			<h5>Integrates with <strong>AEC</strong></h5>
-			<p>Ready-to-go, Ready-to-sell: With joomla, AEC and mangrove, you're ready to have your business set up in no-time</p>
+			<p>Ready-to-go, Ready-to-sell: With joomla, AEC and mangrove, you're ready to have your business set up in no-time. Set up memberships for individual software packages and restrict the number of connected sites, if you want to.</p>
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Ready to sell" />
+					</p>
+				</div>
+			</div>
 		</li>
 		<li>
 			<i class="icon-rocket icon-4x icon-li"></i>
 			<h5><strong>Push-to-Deploy</strong></h5>
-			<p>One push to your repository and a few moments later, a new package is available to your clients</p>
+			<p>One push to your repository and a few moments later, a new package is available to your clients. (Or, with automatic updates, is already installed for your clients.)</p>
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Push-to-Deploy" />
+					</p>
+				</div>
+			</div>
 		</li>
 		<li>
 			<i class="icon-code-fork icon-4x icon-li"></i>
 			<h5>Makes <strong>proper use of git</strong></h5>
-			<p>Understands branches and uses semantic versioning automatically</p>
+			<p>Understands <strong>branches</strong> and uses <strong>semantic versioning</strong> automatically.</p>
+			<p><strong>Wait a minute!</strong> How does it do automatic version numbers?</p>
+
+			<div ng-controller="CollapseCtrl">
+				<p class="text-center">
+					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+				</p>
+				<div collapse="!isCollapsed">
+					<p class="text-center">
+						<img src="http://placehold.it/660x450&text=Semantic Versioning and branches" />
+					</p>
+				</div>
+			</div>
+
 		</li>
 	</ul>
 </div>
 </div>
 
 <div class="container text-center">
-	<p>Valanx Copyright © 2006-2013.</p>
+	<p>Valanx Copyright © 2013.</p>
 	<p></p><a href="http://valanx.org/index.php?option=com_content&amp;view=article&amp;id=34&amp;Itemid=102">Some Rights Reserved</a>.<br><br><span style="color:#999">All logos and trademarks<br>are courtesy of their respective owner.</span></p>
 </div>
 
