@@ -7037,14 +7037,15 @@ br.shallow {
 }
 .bubble {
   background: url('../img/greens-crushed.jpg') 100% 40%;
-  height: 155px;
+  height: 190px;
   width: 220px;
   border-radius: 100%;
-  padding-top: 65px;
+  padding-top: 30px;
   margin: 0 auto;
 }
 .bubble h4,
-.bubble p {
+.bubble p,
+.bubble i {
   color: #fff;
 }
 .backdrop {
