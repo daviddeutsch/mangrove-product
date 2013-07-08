@@ -14,6 +14,6 @@ if ( $_GET['auth'] != $json->auth ) {
 	header("HTTP/1.0 401 Unauthorized"); exit;
 }
 
-shell_exec( 'git fetch origin master' );
+shell_exec( 'git pull origin master' );
 
 echo "Ok.";
