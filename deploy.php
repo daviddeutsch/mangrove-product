@@ -15,3 +15,5 @@ if ( $_GET['auth'] != $json->auth ) {
 }
 
 shell_exec( 'git fetch origin master' );
+
+echo "Ok.";
