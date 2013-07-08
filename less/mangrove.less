@@ -1,0 +1,67 @@
+@import url("bootstrap.less");
+
+body {
+  background-image: url('../img/greens.jpg');
+  background-position: 0% 90%;
+}
+
+.jumbotron {
+  color: #fff;
+  height: 400px;
+  padding: 32px 0;
+  text-align: center;
+  .container {
+    margin-top: 80px;
+  }
+  p {
+	color: #fff;
+  }
+}
+
+.white-backdrop {
+  background: #fff;
+}
+
+.container {
+  padding: 16px inherit;
+  > h4 {
+    margin-top: 24px;
+	margin-bottom: 24px;
+  }
+  img {
+	margin: 24px 0;
+  }
+}
+
+.bubble {
+  background: url('../img/greens.jpg') 100% 40%;
+  color #fff;
+  height: 155px;
+  width: 220px;
+  border-radius: 100%;
+  padding-top: 65px;
+  margin: 0 auto;
+  h4, p {
+	color: #fff;
+  }
+}
+
+.backdrop {
+  #gradient > .vertical(#f9f9f9, #f5f5f5);
+  border-radius: 14px;
+  height: 180px;
+  padding: 12px 0;
+}
+
+.impact {
+  font-size: @baseFontSize * 1.25;
+  &-small {
+	font-size: @baseFontSize * 1.05;
+  }
+  &-large {
+	font-size: @baseFontSize * 1.75;
+  }
+  &-shallow {
+	line-height: 0%;
+  }
+}
