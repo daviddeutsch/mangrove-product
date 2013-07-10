@@ -7085,6 +7085,9 @@ br.shallow {
 .icons-ul-big [class*=" icon-"] {
   margin-top: 24px;
 }
+.scrollshow {
+  opacity: 0;
+}
 .ui-scrollfix {
   display: block;
   position: fixed;
@@ -7096,4 +7099,7 @@ br.shallow {
   z-index: 1000;
   box-shadow: 4px 0 6px rgba(0,0,0,0.4);
   padding-top: 18px;
+}
+.ui-scrollfix .scrollshow {
+  opacity: 1;
 }
