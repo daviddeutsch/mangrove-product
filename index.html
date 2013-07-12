@@ -28,27 +28,41 @@
 
 	<div class="row">
 		<div class="span4 text-center backdrop">
-			<p class="impact"><strong>mangrove</strong> is a</p>
 			<p><i class="icon-archive icon-4x"></i></p>
 			<p class="impact"><strong>package<br />management<br />system</strong></p>
 		</div>
 		<div class="span4 text-center backdrop">
-			<br class="shallow" />
-			<p>it's built for</p>
-			<p class="impact">
-				<i class="icon-rocket icon-large"></i>
-				&nbsp;<strong>hyperspeed</strong></p>
-			<p class="impact">
-				<i class="icon-sitemap icon-large"></i>
-				&nbsp;<strong>&uuml;berefficiency</strong></p>
-			<p class="impact">
-				<i class="icon-user-md icon-large"></i>
-				&nbsp;<strong>professionals</strong></p>
+			<p><i class="icon-archive icon-4x"></i></p>
+			<p class="impact"><strong>package<br />management<br />system</strong></p>
 		</div>
 		<div class="span4 text-center backdrop">
+			<p><img src="img/noun_project_9760.svg" /></p>
+			<p class="impact"><strong>decentralized<br />deployment<br />solution</strong></p>
+		</div>
+	</div>
+
+	<h4 class="text-center">It's built for:</h4>
+
+	<div class="row">
+		<div class="span4 text-center backdrop">
+			<p><img src="img/noun_project_15689.svg" /></p>
+			<p class="impact"><strong>hyperspeed</strong></p>
+		</div>
+		<div class="span4 text-center backdrop">
+			<p><i class="icon-archive icon-4x"></i></p>
+			<p class="impact"><strong>&uuml;berefficiency</strong></p>
+		</div>
+		<div class="span4 text-center backdrop">
+			<p><img src="img/noun_project_16812.svg" /></p>
+			<p class="impact"><strong>professionals</strong></p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="span12 text-center backdrop">
 			<br />
-			<p class="impact-large">we <i class="icon-heart"></i> automation</p>
-			<p>...so we made sure that mangrove not only <strong>does your laundry for you</strong>, but <em>shop for your clothes and wear them, too</em>.</p>
+			<h2>we <i class="icon-heart"></i> automation</h2>
+			<p>...so we made sure that mangrove not only<br /><strong>does your laundry for you</strong>,<br />but <em>shop for your clothes and wear them, too</em>.</p>
 			<p>It's <strong>that good</strong>.</p>
 		</div>
 	</div>
@@ -228,14 +242,14 @@
 				<i class="icon-sitemap icon-4x icon-li"></i>
 				<h5><strong>Distributed &amp; Decentralized</strong></h5>
 				<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
-				<button class="btn btn-mini" ng-click="tabs[0].active = true"><i class="icon-double-angle-down"></i> Show me how</button>
+				<button class="btn btn-mini" ng-click="choose(0)"><i class="icon-double-angle-down"></i> Show me how</button>
 			</div>
 
 			<div class="span4 text-center">
 				<i class="icon-puzzle-piece icon-4x icon-li"></i>
 				<h5><strong>Modularize</strong> your projects</h5>
 				<p>Components, Plugins, Modules, Translations&hellip; Applications can get pretty hard to manage with all the small parts you have to keep track of in your codebase. With mangrove, you can dispose of complicated build scripts or endless package fiddling. We even generate those annoying .xml files for you, if you want!</p>
-				<button class="btn btn-mini" ng-click="tabs[1].active = true"><i class="icon-double-angle-down"></i> Show me how</button>
+				<button class="btn btn-mini" ng-click="choose(1)"><i class="icon-double-angle-down"></i> Show me how</button>
 			</div>
 
 			<div class="span4 text-center">
@@ -248,21 +262,21 @@
 
 		<tabset>
 
-			<tab heading="Distributed">
+			<tab>
 				<p class="text-center">
 					<img src="img/flowchart-distributedndecentralized.jpg" />
 					<br />Multiple package vendors produce multiple different applications. Those are pushed into public streams that are then used by clients.
 				</p>
 			</tab>
 
-			<tab heading="Modularize">
+			<tab>
 				<p class="text-center">
 					<img src="img/flowchart-modularize.jpg" />
 					<br />A big, monolithic package already consists of many large parts. These are broken up into several categories - Components, Modules, Plugins, Language Packs and Addons. All of those have their own individual version history and packaging details (like requiring other packages)
 				</p>
 			</tab>
 
-			<tab heading="Github">
+			<tab>
 
 			</tab>
 

@@ -4,6 +4,11 @@ function CollapseCtrl($scope) {
 	$scope.isCollapsed = false;
 }
 
-var TabsCtrl = function ($scope) {
-	$scope.navType = 'tabs';
-};
+function TabsCtrl($scope) {
+	$scope.tabs = [];
+
+	$scope.choose = function(n)
+	{
+		this.tabs[n].select();
+	}
+}
