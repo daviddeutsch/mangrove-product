@@ -63,8 +63,8 @@
 
 	<hr />
 	<h4 class="text-center">
-		<i class="icon-cog icon-spin icon-3x pull-left"></i>
-		<i class="icon-cog icon-spin icon-3x pull-right"></i>
+		<i class="icon-cog icon-3x pull-left"></i>
+		<i class="icon-cog icon-3x pull-right"></i>
 		<strong>Hey! Hey you!</strong> thanks for checking out this site.
 		<br />
 		<br />
@@ -131,10 +131,10 @@
 	<br />
 
 	<div class="row">
-		<div class="span4 text-center">
+		<div class="span3 text-center">
 			<i class="icon-circle-blank icon-4x icon-li"></i>
 			<h5>Install <strong>less</strong></h5>
-			<p>Only get the parts (modules, plugins, translations, etc.) that you need.</p>
+			<p><strong>Install only the parts you need.</strong><br />Bye bye "firehose-install-everything"</p>
 			<div ng-controller="CollapseCtrl">
 				<p class="text-center">
 					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
@@ -147,10 +147,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="span4 text-center">
+		<div class="span3 text-center">
 			<i class="icon-dashboard icon-4x icon-li"></i>
-			<h5>Install a lot <strong>faster</strong></h5>
-			<p>Including one-click (and automatic) installs and updates.</p>
+			<h5>Install <strong>faster</strong></h5>
+			<p>Including one-click<br />(and automatic)<br />installs and updates.</p>
 			<div ng-controller="CollapseCtrl">
 				<p class="text-center">
 					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">How fast, really?</button>
@@ -163,21 +163,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="span4 text-center">
+		<div class="span3 text-center">
 			<i class="icon-cloud-download icon-4x icon-li"></i>
 			<h5>Get <strong>new features</strong> faster</h5>
 			<p>No more waiting for the next "big" release, get plugins and features ahead of major releases.</p>
 		</div>
-	</div>
-
-	<br />
-
-	<ul class="icons-ul icons-ul-big">
-		<li>
+		<div class="span3 text-center">
 			<i class="icon-wrench icon-4x icon-li"></i>
-			<h5>Bonus: Deploy development builds <strong>without the headaches</strong></h5>
-			<p>Sometimes, you need to use bleeding edge software. If everything goes right, that gets you all the fixes you need. Unfortunately, however, you may also get some new bugs you didn't want.</p>
-			<p>With mangrove, software developers can split off fixes into separate branches so you only get the version you need, not all the changes that you're not ready for, yet (for instance when receiving support on a bug).</p>
+			<h5>Development Builds<br /><strong>without the headaches</strong></h5>
+			<p>mangrove makes using bleeding edge builds both safer and more convenient</p>
 			<div ng-controller="CollapseCtrl">
 				<p class="text-center">
 					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
@@ -186,11 +180,15 @@
 					<p class="text-center">
 						<img src="img/flowchart-developmentbuilds.jpg" />
 						<br />A user finds a bug and reports it to the support team. They file a bug report and a new branch of the source code is set up. After a fix has been found, the user installs only the fixed branch, not a completely new package.
+						Sometimes, you need to use bleeding edge software. If everything goes right, that gets you all the fixes you need. Unfortunately, however, you may also get some new bugs you didn't want.
+						With mangrove, software developers can split off fixes into separate branches so you only get the version you need, not all the changes that you're not ready for, yet (for instance when receiving support on a bug).
 					</p>
 				</div>
 			</div>
-		</li>
-	</ul>
+		</div>
+	</div>
+
+	<br />
 
 	<img src="http://placehold.it/960x450&text=Screenshot" />
 
@@ -202,17 +200,17 @@
 	<div class="row">
 		<div class="span4 text-center">
 			<i class="icon-dashboard icon-4x icon-li"></i>
-			<h5><strong>Deploy software</strong> to your clients <strong>at hyperspeed</strong></h5>
+			<h5><strong>Deploy software</strong> to your clients<br /><strong>at hyperspeed</strong></h5>
 			<p>We're giving <em>you</em> the power over your own clients instead of imposing ourselves.</p>
 		</div>
 		<div class="span4 text-center">
 			<i class="icon-random icon-4x icon-li"></i>
-			<h5><strong>Manage</strong> your <strong>sources</strong></h5>
+			<h5>Manage <strong>your sources</strong><br /><strong>your way</strong></strong></h5>
 			<p>Including your own (which might be transparent relays to other servers).</p>
 		</div>
 		<div class="span4 text-center">
 			<i class="icon-search icon-4x icon-li"></i>
-			<h5><strong>Pick and choose</strong> updates</h5>
+			<h5><strong>Pick and choose</strong><br />updates</h5>
 			<p>Clients trust <em>you</em> with their site, so <em>you</em> should be in charge of making sure they're happy.</p>
 		</div>
 	</div>
@@ -223,50 +221,56 @@
 
 	<h4 id="softwaredevelopers">What's in it for... <strong>Software Developers</strong>?</h4>
 
-	<ul class="icons-ul icons-ul-big">
-		<li>
-			<i class="icon-sitemap icon-4x icon-li"></i>
-			<h5><strong>Distributed &amp; Decentralized</strong></h5>
-			<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
-			<div ng-controller="CollapseCtrl">
-				<p class="text-center">
-					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
-				</p>
-				<div collapse="isCollapsed">
-					<p class="text-center" style="height: 60px; overflow: hidden;">
-						<img src="img/flowchart-distributedndecentralized.jpg"/>
-					</p>
-				</div>
-				<div collapse="!isCollapsed">
-					<p class="text-center">
-						<img src="img/flowchart-distributedndecentralized.jpg" />
-						<br />Multiple package vendors produce multiple different applications. Those are pushed into public streams that are then used by clients.
-					</p>
-				</div>
+	<div ng-controller="TabsCtrl">
+		<div class="row">
+
+			<div class="span4 text-center">
+				<i class="icon-sitemap icon-4x icon-li"></i>
+				<h5><strong>Distributed &amp; Decentralized</strong></h5>
+				<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
+				<button class="btn btn-mini" ng-click="tabs[0].active = true"><i class="icon-double-angle-down"></i> Show me how</button>
 			</div>
-		</li>
-		<li>
-			<i class="icon-puzzle-piece icon-4x icon-li"></i>
-			<h5><strong>Modularize</strong> your projects</h5>
-			<p>Components, Plugins, Modules, Translations&hellip; Applications can get pretty hard to manage with all the small parts you have to keep track of in your codebase. With mangrove, you can dispose of complicated build scripts or endless package fiddling. We even generate those annoying .xml files for you, if you want!</p>
-			<div ng-controller="CollapseCtrl">
-				<p class="text-center">
-					<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
-				</p>
-				<div collapse="!isCollapsed">
-					<p class="text-center">
-						<img src="img/flowchart-modularize.jpg" />
-						<br />A big, monolithic package already consists of many large parts. These are broken up into several categories - Components, Modules, Plugins, Language Packs and Addons. All of those have their own individual version history and packaging details (like requiring other packages)
-					</p>
-				</div>
+
+			<div class="span4 text-center">
+				<i class="icon-puzzle-piece icon-4x icon-li"></i>
+				<h5><strong>Modularize</strong> your projects</h5>
+				<p>Components, Plugins, Modules, Translations&hellip; Applications can get pretty hard to manage with all the small parts you have to keep track of in your codebase. With mangrove, you can dispose of complicated build scripts or endless package fiddling. We even generate those annoying .xml files for you, if you want!</p>
+				<button class="btn btn-mini" ng-click="tabs[1].active = true"><i class="icon-double-angle-down"></i> Show me how</button>
 			</div>
-		</li>
-		<li>
-			<i class="icon-github icon-4x icon-li"></i>
-			<h5>Connects to <strong>GitHub</strong></h5>
-			<p>Direct integration, including branches and ticket information. (Integration with other services possible or planned.)</p>
-		</li>
-		<li>
+
+			<div class="span4 text-center">
+				<i class="icon-github icon-4x icon-li"></i>
+				<h5>Connects to <strong>GitHub</strong></h5>
+				<p>Direct integration, including branches and ticket information. (Integration with other services possible or planned.)</p>
+			</div>
+
+		</div>
+
+		<tabset>
+
+			<tab heading="Distributed">
+				<p class="text-center">
+					<img src="img/flowchart-distributedndecentralized.jpg" />
+					<br />Multiple package vendors produce multiple different applications. Those are pushed into public streams that are then used by clients.
+				</p>
+			</tab>
+
+			<tab heading="Modularize">
+				<p class="text-center">
+					<img src="img/flowchart-modularize.jpg" />
+					<br />A big, monolithic package already consists of many large parts. These are broken up into several categories - Components, Modules, Plugins, Language Packs and Addons. All of those have their own individual version history and packaging details (like requiring other packages)
+				</p>
+			</tab>
+
+			<tab heading="Github">
+
+			</tab>
+
+		</tabset>
+	</div>
+
+	<div class="row">
+		<div class="span4 text-center">
 			<i class="icon-eur icon-4x icon-li"></i>
 			<h5>Integrates with <strong>AEC</strong></h5>
 			<p>Ready-to-go, Ready-to-sell: With joomla, AEC and mangrove, you're ready to have your business set up in no-time. Set up memberships for individual software packages and restrict the number of connected sites, if you want to.</p>
@@ -281,8 +285,8 @@
 					</p>
 				</div>
 			</div>
-		</li>
-		<li>
+		</div>
+		<div class="span4 text-center">
 			<i class="icon-rocket icon-4x icon-li"></i>
 			<h5><strong>Push-to-Deploy</strong></h5>
 			<p>One push to your repository and a few moments later, a new package is available to your clients. (Or, with automatic updates, is already installed for your clients.)</p>
@@ -297,8 +301,8 @@
 					</p>
 				</div>
 			</div>
-		</li>
-		<li>
+		</div>
+		<div class="span4 text-center">
 			<i class="icon-code-fork icon-4x icon-li"></i>
 			<h5>Makes <strong>proper use of git</strong></h5>
 			<p>Understands <strong>branches</strong> and uses <strong>semantic versioning</strong> automatically.</p>
@@ -315,9 +319,9 @@
 					</p>
 				</div>
 			</div>
+		</div>
+	</div>
 
-		</li>
-	</ul>
 </div>
 </div>
 
