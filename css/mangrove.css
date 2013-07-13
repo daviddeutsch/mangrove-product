@@ -7233,7 +7233,7 @@ tabset .nav-tabs {
   22% {
     margin-right: 220px;
   }
-  34% {
+  32% {
     margin-right: 109px;
   }
   54% {
@@ -7341,7 +7341,7 @@ tabset .nav-tabs {
   display: inline-block;
   margin-right: 220px;
   margin-left: 0;
-  min-height: 1em;
+  min-height: 1.07em;
   width: 1px;
 }
 .span-spinner span {
