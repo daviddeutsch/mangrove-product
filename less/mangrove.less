@@ -19,7 +19,6 @@
 
 body {
   background: url('../img/greens-cropped.jpg') no-repeat fixed;
-  background-position: bottom 50%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -ms-background-size: cover;
@@ -31,6 +30,7 @@ body {
   height: 400px;
   padding: 32px 0;
   text-align: center;
+  overflow: hidden;
   .container {
     margin-top: 80px;
   }
@@ -46,6 +46,7 @@ br.shallow {
 .white-backdrop {
   background: #fff;
   box-shadow: 0 0 24px rgba( 0,0,0,0.4);
+  padding-top: 24px;
 }
 
 .container {
@@ -113,14 +114,18 @@ path {
   opacity: 0;
 }
 
+.menu {
+
+}
+
 .ui-scrollfix {
-  display: block;
   position: fixed;
   top: 0;
   left: 0;
+  display: block;
+  background: #fff;
   width: 100%;
   height: 40px;
-  background: #fff;
   z-index: 1000;
   box-shadow: 4px 0 6px rgba( 0,0,0,0.4);
   padding-top: 18px;

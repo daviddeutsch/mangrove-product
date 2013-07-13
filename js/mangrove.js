@@ -1,3 +1,24 @@
+
+$( document ).ready(function() {
+	$(window).scroll(function(){
+
+		var pos = $(window).scrollTop();
+
+		$('body').css("background-position", "0 -"+(pos/4)+"px");
+		$('.jumbotron').css("height", 400-(pos)+"px");
+		$('.jumbotron img').css("margin-top", "-"+(pos/8)+"px");
+		$('.jumbotron h3').css("margin-top", "-"+(pos/4)+"px");
+
+		if ( pos > 120 ) {
+			$('header h3').fadeOut();
+		} else if ( pos < 120 ) {
+			$('header h3').fadeIn();
+		}
+	});
+});
+
+
+
 var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix']);
 
 function CollapseCtrl($scope) {
