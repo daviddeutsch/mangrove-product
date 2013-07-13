@@ -7005,9 +7005,12 @@ legend {
   position: fixed;
 }
 body {
-  background: url('../img/greens-crushed.jpg') no-repeat fixed;
-  background-position: 30% 50%;
+  background: url('../img/greens-cropped.jpg') no-repeat fixed;
+  background-position: bottom 50%;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
 }
 .jumbotron {
   color: #fff;
@@ -7026,6 +7029,7 @@ br.shallow {
 }
 .white-backdrop {
   background: #fff;
+  box-shadow: 0 0 24px rgba(0,0,0,0.4);
 }
 .container {
   padding: 16px inherit;
@@ -7131,7 +7135,7 @@ tabset .nav-tabs {
   }
 }
 @-moz-keyframes rotateWord {
-  0% {
+  from {
     opacity: 0;
   }
   2% {
@@ -7149,7 +7153,7 @@ tabset .nav-tabs {
   80% {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 0;
   }
 }
@@ -7243,7 +7247,7 @@ tabset .nav-tabs {
   }
 }
 @-moz-keyframes rotateLength {
-  0% {
+  from {
     margin-right: 220px;
   }
   22% {
@@ -7258,8 +7262,11 @@ tabset .nav-tabs {
   68% {
     margin-right: 256px;
   }
-  84% {
+  94% {
     margin-right: 256px;
+  }
+  to {
+    margin-right: 220px;
   }
 }
 @-o-keyframes rotateLength {
@@ -7326,15 +7333,25 @@ tabset .nav-tabs {
   -webkit-animation: rotateLength 9s 0 infinite linear;
   -moz-animation: rotateLength 9s 0 infinite linear;
   -ms-animation: rotateLength 9s 0 infinite linear;
+  animation: rotateLength 9s 0 infinite linear;
+  animation-duration: 9s;
+  animation-name: rotateLength;
+  animation-iteration-count: infinite;
   float: none;
-  display: inline;
+  display: inline-block;
   margin-right: 220px;
   margin-left: 0;
+  min-height: 1em;
+  width: 1px;
 }
 .span-spinner span {
   -webkit-animation: rotateWord 9s 0 infinite linear;
   -moz-animation: rotateWord 9s 0 infinite linear;
   -ms-animation: rotateWord 9s 0 infinite linear;
+  animation: rotateWord 9s 0 infinite linear;
+  animation-duration: 9s;
+  animation-name: rotateWord;
+  animation-iteration-count: infinite;
   position: absolute;
   opacity: 0;
   overflow: hidden;

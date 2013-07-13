@@ -1,9 +1,13 @@
 @import url("bootstrap.less");
 
-.animation (@name, @duration: 300ms, @delay: 0, @length: infinite, @ease: ease) {
-  -webkit-animation: @name @duration @delay @length @ease;
-  -moz-animation:    @name @duration @delay @length @ease;
-  -ms-animation:     @name @duration @delay @length @ease;
+.animation (@name, @duration: 300ms, @delay: 0, @iterations: infinite, @ease: ease) {
+  -webkit-animation: @name @duration @delay @iterations @ease;
+  -moz-animation:    @name @duration @delay @iterations @ease;
+  -ms-animation:     @name @duration @delay @iterations @ease;
+  animation:     @name @duration @delay @iterations @ease;
+  animation-duration: @duration;
+  animation-name: @name;
+  animation-iteration-count: @iterations;
 }
 
 .animation-delay (@duration) {
@@ -14,9 +18,12 @@
 }
 
 body {
-  background: url('../img/greens-crushed.jpg') no-repeat fixed;
-  background-position: 30% 50%;
+  background: url('../img/greens-cropped.jpg') no-repeat fixed;
+  background-position: bottom 50%;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
 }
 
 .jumbotron {
@@ -38,6 +45,7 @@ br.shallow {
 
 .white-backdrop {
   background: #fff;
+  box-shadow: 0 0 24px rgba( 0,0,0,0.4);
 }
 
 .container {
@@ -140,13 +148,13 @@ tabset {
   100% { opacity: 0; }
 }
 @-moz-keyframes rotateWord {
-  0% { opacity: 0; }
+  from { opacity: 0; }
   2% { opacity: 0; }
   5% { opacity: 1;}
   17% { opacity: 1; }
   20% { opacity: 0; }
   80% { opacity: 0; }
-  100% { opacity: 0; }
+  to { opacity: 0; }
 }
 @-o-keyframes rotateWord {
   0% { opacity: 0; }
@@ -185,12 +193,13 @@ tabset {
   84% { margin-right: 256px;}
 }
 @-moz-keyframes rotateLength {
-  0% { margin-right: 220px; }
+  from { margin-right: 220px; }
   22% { margin-right: 220px; }
   34% { margin-right: 109px; }
   54% { margin-right: 109px; }
   68% { margin-right: 256px;}
-  84% { margin-right: 256px;}
+  94% { margin-right: 256px;}
+  to { margin-right: 220px;}
 }
 @-o-keyframes rotateLength {
   0% { margin-right: 220px; }
@@ -220,9 +229,11 @@ tabset {
 .span-spinner {
   .animation (rotateLength, 9s, 0, infinite, linear);
   float: none;
-  display: inline;
+  display: inline-block;
   margin-right: 220px;
   margin-left: 0;
+  min-height: 1em;
+  width: 1px;
   span {
 	.animation (rotateWord, 9s, 0, infinite, linear);
 	position: absolute;
