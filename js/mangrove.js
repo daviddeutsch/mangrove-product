@@ -13,17 +13,19 @@ function TabsCtrl($scope) {
 	}
 }
 
-mangroveApp.directive('svgpoly', function ($http) {
-	var getSVG = function (path) {
-		return $http.get(path);
-	};
-
+mangroveApp.directive('svgpoly', function ($http, $location) {
 	return {
 		restrict: 'E',
 		link: function ( scope, element, attrs ) {
-			getSVG(attrs.path).success( function( svg ) {
-				element[0].outerHTML = svg;
-			});
+			url = $location.absUrl();
+			if ( !Modernizr.inlinesvg || url.indexOf("file://") !== -1 ) {
+				element[0].outerHTML = '<img src="'+attrs.path.replace('svg','png')+'">';
+			} else {
+				$http.get(attrs.path).success( function( svg ) {
+					element[0].outerHTML = svg;
+				});
+			}
+
 		}
 	}
 });
