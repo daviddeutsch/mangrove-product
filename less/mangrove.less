@@ -1,13 +1,10 @@
 @import url("bootstrap.less");
 
-.animation (@name, @duration: 300ms, @delay: 0, @iterations: infinite, @ease: ease) {
-  -webkit-animation: @name @duration @delay @iterations @ease;
-  -moz-animation:    @name @duration @delay @iterations @ease;
-  -ms-animation:     @name @duration @delay @iterations @ease;
-  animation:     @name @duration @delay @iterations @ease;
-  animation-duration: @duration;
-  animation-name: @name;
-  animation-iteration-count: @iterations;
+.animation(@anim){
+  -webkit-animation: @anim;
+  -moz-animation: @anim;
+  -o-animation: @anim;
+  animation: @anim;
 }
 
 .animation-delay (@duration) {
@@ -143,16 +140,7 @@ tabset {
   }
 }
 
-@-webkit-keyframes rotateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; }
-  5% { opacity: 1;}
-  17% { opacity: 1; }
-  20% { opacity: 0; }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@-moz-keyframes rotateWord {
+.mixin-rotate-word() {
   from { opacity: 0; }
   2% { opacity: 0; }
   5% { opacity: 1;}
@@ -161,43 +149,14 @@ tabset {
   80% { opacity: 0; }
   to { opacity: 0; }
 }
-@-o-keyframes rotateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; }
-  5% { opacity: 1;}
-  17% { opacity: 1; }
-  20% { opacity: 0; }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@-ms-keyframes rotateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; }
-  5% { opacity: 1;}
-  17% { opacity: 1; }
-  20% { opacity: 0; }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
-}
-@keyframes rotateWord {
-  0% { opacity: 0; }
-  2% { opacity: 0; }
-  5% { opacity: 1;}
-  17% { opacity: 1; }
-  20% { opacity: 0; }
-  80% { opacity: 0; }
-  100% { opacity: 0; }
-}
 
-@-webkit-keyframes rotateLength {
-  0% { margin-right: 220px; }
-  22% { margin-right: 220px; }
-  32% { margin-right: 109px; }
-  54% { margin-right: 109px; }
-  68% { margin-right: 256px;}
-  84% { margin-right: 256px;}
-}
-@-moz-keyframes rotateLength {
+@-webkit-keyframes rotate-word {.mixin-rotate-word;};
+@-moz-keyframes rotate-word {.mixin-rotate-word;};
+@-ms-keyframes rotate-word {.mixin-rotate-word;};
+@-o-keyframes rotate-word {.mixin-rotate-word;};
+@keyframes rotate-word {.mixin-rotate-word;};
+
+.mixin-rotate-length() {
   from { margin-right: 220px; }
   22% { margin-right: 220px; }
   34% { margin-right: 109px; }
@@ -206,33 +165,37 @@ tabset {
   94% { margin-right: 256px;}
   to { margin-right: 220px;}
 }
-@-o-keyframes rotateLength {
-  0% { margin-right: 220px; }
-  22% { margin-right: 220px; }
-  34% { margin-right: 109px; }
-  54% { margin-right: 109px; }
-  68% { margin-right: 256px;}
-  84% { margin-right: 256px;}
+
+@-webkit-keyframes rotate-length {.mixin-rotate-length;};
+@-moz-keyframes rotate-length {.mixin-rotate-length;};
+@-ms-keyframes rotate-length {.mixin-rotate-length;};
+@-o-keyframes rotate-length {.mixin-rotate-length;};
+@keyframes rotate-length {.mixin-rotate-length;};
+
+.mixin-text-red-pulsate() {
+  from { color: @greenDark }
+  30% { color: @greenDark }
+  35% { color: #f00 }
+  55% { color: @greenDark }
+  70% { color: @greenDark }
+  75% { color: #f00 }
+  95% { color: @greenDark }
+  to { color: @greenDark }
 }
-@-ms-keyframes rotateLength {
-  0% { margin-right: 220px; }
-  22% { margin-right: 220px; }
-  34% { margin-right: 109px; }
-  54% { margin-right: 109px; }
-  68% { margin-right: 256px;}
-  84% { margin-right: 256px;}
-}
-@keyframes rotateLength {
-  0% { margin-right: 220px; }
-  22% { margin-right: 220px; }
-  34% { margin-right: 109px; }
-  54% { margin-right: 109px; }
-  68% { margin-right: 256px;}
-  84% { margin-right: 256px;}
+
+@-webkit-keyframes text-red-pulsate {.mixin-text-red-pulsate;};
+@-moz-keyframes text-red-pulsate {.mixin-text-red-pulsate;};
+@-ms-keyframes text-red-pulsate {.mixin-text-red-pulsate;};
+@-o-keyframes text-red-pulsate {.mixin-text-red-pulsate;};
+@keyframes text-red-pulsate {.mixin-text-red-pulsate;};
+
+.heartbeat {
+  .animation(text-red-pulsate 2s infinite);
+  color: #fff;
 }
 
 .span-spinner {
-  .animation (rotateLength, 9s, 0, infinite, linear);
+  .animation (rotate-length 9s infinite);
   float: none;
   display: inline-block;
   margin-right: 220px;
@@ -240,7 +203,7 @@ tabset {
   min-height: 1.07em;
   width: 1px;
   span {
-	.animation (rotateWord, 9s, 0, infinite, linear);
+	.animation (rotate-word 9s infinite);
 	position: absolute;
 	opacity: 0;
 	overflow: hidden;
