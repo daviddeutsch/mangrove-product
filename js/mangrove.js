@@ -17,7 +17,11 @@ $( document ).ready(function() {
 		}
 
 		if ( pos > 240 ) {
-			$('body').css("background-position", "0 0");
+			if ( pos > 1000 ) {
+				$('body').css("background-position", "0 "+(300+(pos/12))+"px");
+			} else {
+				$('body').css("background-position", "0 0");
+			}
 		} else if ( pos < 240 ) {
 			$('body').css("background-position", "0 -"+(pos/4)+"px");
 		}
