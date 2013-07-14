@@ -173,13 +173,11 @@ tabset {
 @keyframes rotate-length {.mixin-rotate-length;};
 
 .mixin-text-red-pulsate() {
-  from { color: @greenDark }
-  30% { color: @greenDark }
-  35% { color: #f00 }
-  55% { color: @greenDark }
+  from { color: #f00 }
+  20% { color: @greenDark }
+  25% { color: #f00 }
+  45% { color: @greenDark }
   70% { color: @greenDark }
-  75% { color: #f00 }
-  95% { color: @greenDark }
   to { color: @greenDark }
 }
 
@@ -190,7 +188,7 @@ tabset {
 @keyframes text-red-pulsate {.mixin-text-red-pulsate;};
 
 .heartbeat {
-  .animation(text-red-pulsate 2s infinite);
+  .animation(text-red-pulsate 3s infinite);
   color: #fff;
 }
 
