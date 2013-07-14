@@ -1,56 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   id="Layer_1"
    width="100"
    height="100"
    viewBox="0 0 100 99.999996"
-   overflow="visible"
-   enable-background="new 0 0 100 82.438"
+   id="Layer_1"
    xml:space="preserve"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="noun_project_3756.svg"
    style="overflow:visible"><metadata
    id="metadata25"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
-   id="defs23" /><sodipodi:namedview
-   pagecolor="#ffffff"
-   bordercolor="#666666"
-   borderopacity="1"
-   objecttolerance="10"
-   gridtolerance="10"
-   guidetolerance="10"
-   inkscape:pageopacity="0"
-   inkscape:pageshadow="2"
-   inkscape:window-width="1920"
-   inkscape:window-height="1151"
-   id="namedview21"
-   showgrid="false"
-   inkscape:zoom="2.8627573"
-   inkscape:cx="50"
-   inkscape:cy="41.219002"
-   inkscape:window-x="-2"
-   inkscape:window-y="26"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs23" />
 <g
-   id="g3"
-   transform="translate(0,9.561996)">
+   transform="translate(0,9.561996)"
+   id="g3">
 	<path
    d="m 25.015,76.187 1.487,0.787 c 0,0 9.247,-18.743 9.835,-19.942 1.123,0.592 9.415,4.865 9.415,4.865 L 46.64,60.566 35.532,54.696 25.015,76.187 z"
    id="path5"
-   inkscape:connector-curvature="0"
    style="fill:#000000" />
 	<polygon
-   points="93.666,4.568 35.532,54.695 36.912,56.068 94.658,5.65 "
+   points="35.532,54.695 36.912,56.068 94.658,5.65 93.666,4.568 "
    id="polygon7"
    style="fill:#000000" />
 	<g
@@ -62,18 +38,16 @@
 				<path
    d="m 4.635,42.104 c 0,0 20.038,11.119 20.934,11.61 -0.031,0.986 -0.636,24.503 -0.636,24.503 0,0 20.02,-15.202 20.884,-15.867 0.97,0.484 16.544,8.269 16.544,8.269 L 95.689,3.997 4.635,42.104 z M 91.953,7.446 c -1.943,3.89 -29.65,59.282 -30.412,60.81 -1.481,-0.749 -15.924,-7.964 -15.924,-7.964 0,0 -16.217,12.307 -18.793,14.262 0.084,-3.129 0.57,-21.827 0.57,-21.827 0,0 -16.114,-8.947 -18.753,-10.41 C 11.723,41.03 87.807,9.185 91.953,7.446 z"
    id="path15"
-   inkscape:connector-curvature="0"
    style="fill:#000000" />
 			</g>
 			<path
    d="m 0,41.846 c 0,0 21.516,11.943 23.446,13.017 -0.055,2.162 -0.71,27.575 -0.71,27.575 0,0 21.413,-16.25 23.317,-17.698 2.055,1.02 17.259,8.615 17.259,8.615 L 100,0 0,41.846 z M 91.37,7.995 C 87.312,16.107 63.043,64.631 61.418,67.882 58.434,66.396 45.591,59.976 45.591,59.976 c 0,0 -13.623,10.34 -18.472,14.02 0.16,-5.832 0.562,-21.431 0.562,-21.431 0,0 -13.481,-7.469 -18.412,-10.204 C 15.834,39.599 82.618,11.65 91.37,7.995 z"
    id="path17"
-   inkscape:connector-curvature="0"
    style="fill:#000000" />
 		</g>
 	</g>
 	<polygon
-   points="91.105,6.609 25.646,53.153 26.512,54.39 91.96,7.832 "
+   points="25.646,53.153 26.512,54.39 91.96,7.832 91.105,6.609 "
    id="polygon19"
    style="fill:#000000" />
 </g>
