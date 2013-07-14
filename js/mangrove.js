@@ -18,7 +18,7 @@ $( document ).ready(function() {
 
 		if ( pos > 240 ) {
 			if ( pos > 1000 ) {
-				$('body').css("background-position", "0 "+(300+(pos/12))+"px");
+				$('body').css("background-position", "0 "+(50+(pos/12))+"px");
 			} else {
 				$('body').css("background-position", "0 0");
 			}
