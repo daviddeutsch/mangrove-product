@@ -6,7 +6,7 @@ $( document ).ready(function() {
 
 
 		$('.jumbotron').css("height", 400-(pos)+"px");
-		$('.jumbotron img').css("margin-top", "-"+(pos/8)+"px");
+		$('.jumbotron img').css("margin-top", 24-((pos+24)/8)+"px");
 		$('.jumbotron h3').css("margin-top", "-"+(pos/4)+"px");
 
 		if ( pos > 120 ) {
