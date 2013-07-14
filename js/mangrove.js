@@ -49,6 +49,7 @@ mangroveApp.directive('svgpoly', function ($http, $location) {
 			if ( !Modernizr.inlinesvg || url.indexOf("file://") !== -1 ) {
 				element[0].outerHTML = '<img src="'+attrs.path.replace('svg','png')+'">';
 			} else {
+				//element[0].outerHTML = '<span ng-include="\''+attrs.path+'\'"></span>';
 				$http.get(attrs.path).success( function( svg ) {
 					element[0].outerHTML = svg;
 				});
