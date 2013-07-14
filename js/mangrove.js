@@ -4,15 +4,22 @@ $( document ).ready(function() {
 
 		var pos = $(window).scrollTop();
 
-		$('body').css("background-position", "0 -"+(pos/4)+"px");
+
 		$('.jumbotron').css("height", 400-(pos)+"px");
 		$('.jumbotron img').css("margin-top", "-"+(pos/8)+"px");
 		$('.jumbotron h3').css("margin-top", "-"+(pos/4)+"px");
 
 		if ( pos > 120 ) {
 			$('header h3').fadeOut();
+
 		} else if ( pos < 120 ) {
 			$('header h3').fadeIn();
+		}
+
+		if ( pos > 240 ) {
+			$('body').css("background-position", "0 0");
+		} else if ( pos < 240 ) {
+			$('body').css("background-position", "0 -"+(pos/4)+"px");
 		}
 	});
 });
