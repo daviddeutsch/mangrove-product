@@ -54,7 +54,7 @@ br.shallow {
 	margin-bottom: 24px;
   }
   img {
-	margin: 24px 0;
+	margin: 24px auto;
   }
 }
 
@@ -167,9 +167,8 @@ tabset {
   from { opacity: 0; }
   2% { opacity: 0; }
   5% { opacity: 1;}
-  17% { opacity: 1; }
-  20% { opacity: 0; }
-  80% { opacity: 0; }
+  20% { opacity: 1; }
+  25% { opacity: 0; }
   to { opacity: 0; }
 }
 
@@ -180,13 +179,14 @@ tabset {
 @keyframes rotate-word {.mixin-rotate-word;};
 
 .mixin-rotate-length() {
-  from { margin-right: 220px; }
-  22% { margin-right: 220px; }
-  34% { margin-right: 109px; }
-  54% { margin-right: 109px; }
-  68% { margin-right: 256px;}
-  94% { margin-right: 256px;}
-  to { margin-right: 220px;}
+  from { margin-right: 216px; }
+  25% { margin-right: 216px; }
+  35% { margin-right: 108px; }
+  55% { margin-right: 108px; }
+  70% { margin-right: 254px;}
+  92% { margin-right: 254px;}
+  99% { margin-right: 216px;}
+  to { margin-right: 216px;}
 }
 
 @-webkit-keyframes rotate-length {.mixin-rotate-length;};
@@ -204,6 +204,29 @@ tabset {
   to { color: @greenDark }
 }
 
+.span-spinner {
+  .animation (rotate-length 6s infinite);
+  float: none;
+  display: inline-block;
+  margin-right: 220px;
+  margin-left: 0;
+  min-height: 1em;
+  width: 1px;
+  span {
+	.animation (rotate-word 6s infinite);
+	position: absolute;
+	opacity: 0;
+	overflow: hidden;
+	color: #224107;
+	&:nth-child(2) {
+	  .animation-delay (2s);
+	}
+	&:nth-child(3) {
+	  .animation-delay (4s);
+	}
+  }
+}
+
 @-webkit-keyframes text-red-pulsate {.mixin-text-red-pulsate;};
 @-moz-keyframes text-red-pulsate {.mixin-text-red-pulsate;};
 @-ms-keyframes text-red-pulsate {.mixin-text-red-pulsate;};
@@ -217,28 +240,6 @@ tabset {
 
 .flow-top-margin {
   padding-top: 50px;
-}
-
-.span-spinner {
-  .animation (rotate-length 9s infinite);
-  float: none;
-  display: inline-block;
-  margin-right: 220px;
-  margin-left: 0;
-  min-height: 1em;
-  width: 1px;
-  span {
-	.animation (rotate-word 9s infinite);
-	position: absolute;
-	opacity: 0;
-	overflow: hidden;
-	&:nth-child(2) {
-	  .animation-delay (3s);
-	}
-	&:nth-child(3) {
-	  .animation-delay (6s);
-	}
-  }
 }
 
 .footer {
