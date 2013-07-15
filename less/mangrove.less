@@ -65,8 +65,10 @@ br.shallow {
   }
 }
 
-.img.span8 {
-  margin-top: 0;
+.img-left.span8 {
+  margin-left: 0;
+}
+.img-right.span8 {
   margin-right: 0;
 }
 .img .img-illustration {
@@ -162,11 +164,13 @@ path {
 
 .menu {
   opacity: 0.3;
-  .transition( opacity 400ms)
-}
-
-.menu-placeholder {
-  height: 52px;
+  .transition( opacity 400ms);
+  &-text {
+	padding-left: 2em;
+  }
+  &-placeholder {
+	height: 52px;
+  }
 }
 
 .ui-scrollfix {
@@ -304,5 +308,29 @@ footer {
 .is-hidden {
   position: absolute;
   left: -9999em;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+	padding: 0;
+  }
+  .container {
+	padding: 0 20px;
+  }
+  .separator>img {
+	margin-left: 0;
+	margin-right: 0;
+	max-width: 100%;
+  }
+  .menu {
+	padding-bottom: 5px;
+  }
+  .scrollshow {
+	display: block;
+  }
+  .menu-text {
+	/*display: block;*/
+	padding-left: 0;
+  }
 }
 
