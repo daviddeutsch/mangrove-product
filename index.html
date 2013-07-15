@@ -61,6 +61,13 @@
 		position: absolute;
 		left: -9999em;
 	}
+	.img.span8 {
+		margin-top: 0;
+		margin-right: 0;
+	}
+	.img .img-illustration {
+		margin: 0;
+	}
 	.img-illustration {
 		min-width: 100%;
 	}
@@ -149,15 +156,22 @@
 		<section id="introduction" class="section">
 			<img class="img-illustration" src="http://placehold.it/960x450&text=Interface Screenshot" alt="" width="960" height="450" />
 
+			<!--
+			David: I would columnize this, the lines are too wide. Perhaps put the text in a 1/3 width column, and the image in a 2/3 width column
+			!-->
 			<h2 id="packagemanager">So - what's a <strong>package manager</strong>?</h2>
-			<p>A package manager helps you install software without having to copy files or links into your system. They connect you to sources of packages </p>
-			<p>If you have used a computer or similar device in the past couple of years, you will certainly have used a package manager - whether you know it or not.</p>
-			<p>For instance - app store are a popular way to manage packages (those packages simply happen to be entire applications) or you might have used one to update existing software on your computer with an automatic updater (in turn being a package manager for a single application).</p>
-			<p>mangrove brings that concept into the joomla world in a more elegant way than existing solutions.</p>
+			<div class="row" style="vertical-align: top;">
+				<div class="span4">
+					<p>A package manager helps you install software without having to copy files or links into your system. They connect you to sources of packages </p>
+					<p>If you have used a computer or similar device in the past couple of years, you will certainly have used a package manager - whether you know it or not.</p>
+					<p>For instance - app store are a popular way to manage packages (those packages simply happen to be entire applications) or you might have used one to update existing software on your computer with an automatic updater (in turn being a package manager for a single application).</p>
+					<p>mangrove brings that concept into the joomla world in a more elegant way than existing solutions.</p>
+				</div>
 
-			<p class="text-center">
-				<img src="img/flowchart_package_management.png" />
-			</p>
+				<figure class="text-center span8 img">
+					<img src="img/flowchart_package_management.png" class="img-illustration" alt="" width="840" width="433" />
+				</figure>
+			</div>
 
 			<br />
 			<h2 class="text-center">Who are <strong>you</strong>?</h2>
