@@ -23,12 +23,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="-2299.9688"
-     inkscape:cy="-521.67619"
+     inkscape:zoom="0.5"
+     inkscape:cx="-1841.83"
+     inkscape:cy="-1331.095"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      showborder="false"
      inkscape:showpageshadow="false"
      showguides="false"
@@ -205,6 +205,699 @@
   </sodipodi:namedview>
   <defs
      id="defs9307">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1265.7392 : -1702.5923 : 1"
+       id="perspective49076" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1265.4258 : -1676.6155 : 1"
+       id="perspective49074" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1265.4785 : -1649.2921 : 1"
+       id="perspective49072" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1281.0214 : -1693.7173 : 1"
+       id="perspective49028" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1280.7076 : -1667.7408 : 1"
+       id="perspective49026" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1280.7603 : -1640.4174 : 1"
+       id="perspective49024" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1296.3644 : -1684.859 : 1"
+       id="perspective48980" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1296.0506 : -1658.8825 : 1"
+       id="perspective48978" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1296.1033 : -1631.5591 : 1"
+       id="perspective48976" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1311.7078 : -1676.0005 : 1"
+       id="perspective48932" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1311.394 : -1650.024 : 1"
+       id="perspective48930" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1311.4467 : -1622.7006 : 1"
+       id="perspective48928" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.1053 : -1791.2795 : 1"
+       id="perspective48884" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.1053 : -1738.1299 : 1"
+       id="perspective48882" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.8233 : -1826.6602 : 1"
+       id="perspective48880" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.7334 : -1773.563 : 1"
+       id="perspective48878" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.5092 : -1702.6445 : 1"
+       id="perspective48876" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1909.9651 : -1702.6971 : 1"
+       id="perspective48804" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1909.9651 : -1649.5475 : 1"
+       id="perspective48802" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1879.3686 : -1720.361 : 1"
+       id="perspective48800" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1879.2791 : -1684.9806 : 1"
+       id="perspective48798" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1910.0546 : -1596.3452 : 1"
+       id="perspective48796" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-2063.5741 : -1348.2613 : 1"
+       id="perspective48724" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-2032.8881 : -1419.1275 : 1"
+       id="perspective48722" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-2017.5452 : -1357.1196 : 1"
+       id="perspective48692" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-2063.4842 : -1507.7625 : 1"
+       id="perspective48690" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-2063.4842 : -1454.6129 : 1"
+       id="perspective48688" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-2002.2022 : -1543.1432 : 1"
+       id="perspective48686" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-2002.1123 : -1490.046 : 1"
+       id="perspective48684" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1066.281 : -1481.1354 : 1"
+       id="perspective48612" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1097.0564 : -1516.5158 : 1"
+       id="perspective48610" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1096.8771 : -1410.3216 : 1"
+       id="perspective48608" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1035.5951 : -1552.0015 : 1"
+       id="perspective48606" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1035.5052 : -1445.7547 : 1"
+       id="perspective48604" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.5874 : -1472.2914 : 1"
+       id="perspective48079" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1910.1328 : -1755.756 : 1"
+       id="perspective48077" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1971.5047 : -1720.3229 : 1"
+       id="perspective48075" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1863.9237 : -1676.1362 : 1"
+       id="perspective48073" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1894.6995 : -1658.3672 : 1"
+       id="perspective48071" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1833.4175 : -1658.3148 : 1"
+       id="perspective48069" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1864.0136 : -1640.6507 : 1"
+       id="perspective48067" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1864.014 : -1729.2326 : 1"
+       id="perspective48065" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1894.6101 : -1711.5685 : 1"
+       id="perspective48063" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1833.2381 : -1711.5685 : 1"
+       id="perspective48061" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1864.014 : -1693.7995 : 1"
+       id="perspective48059" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1511.1378 : -1330.5962 : 1"
+       id="perspective48057" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.8233 : -1330.5972 : 1"
+       id="perspective48055" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1511.2277 : -1383.6934 : 1"
+       id="perspective48053" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.9132 : -1383.6944 : 1"
+       id="perspective48051" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.2855 : -1348.2603 : 1"
+       id="perspective48049" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.1952 : -1295.1641 : 1"
+       id="perspective48047" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.8241 : -1312.8799 : 1"
+       id="perspective48045" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.5996 : -1295.1118 : 1"
+       id="perspective48043" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.5097 : -1472.3285 : 1"
+       id="perspective48041" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1511.2277 : -1436.844 : 1"
+       id="perspective48039" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.2855 : -1401.4099 : 1"
+       id="perspective48037" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.1952 : -1348.3137 : 1"
+       id="perspective48035" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.914 : -1365.9771 : 1"
+       id="perspective48033" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.5097 : -1348.3127 : 1"
+       id="perspective48031" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.9136 : -1419.1265 : 1"
+       id="perspective48029" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.5991 : -1419.1275 : 1"
+       id="perspective48027" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1633.8816 : -1436.8954 : 1"
+       id="perspective48025" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1458.4193 : -1406.4596 : 1"
+       id="perspective48023" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1066.1795 : -1587.4507 : 1"
+       id="perspective48021" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1096.7756 : -1569.7865 : 1"
+       id="perspective48019" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1035.4037 : -1569.7865 : 1"
+       id="perspective48017" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1066.1795 : -1552.0176 : 1"
+       id="perspective48015" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-989.19556 : -1543.1593 : 1"
+       id="perspective48013" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1020.0608 : -1525.4942 : 1"
+       id="perspective48011" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-958.68896 : -1525.4942 : 1"
+       id="perspective48009" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-989.46476 : -1507.7253 : 1"
+       id="perspective48007" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1142.7155 : -1543.1059 : 1"
+       id="perspective48005" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1173.401 : -1525.5446 : 1"
+       id="perspective48003" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1112.0291 : -1525.5446 : 1"
+       id="perspective48001" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1142.8049 : -1507.7757 : 1"
+       id="perspective47999" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1066.18 : -1498.8672 : 1"
+       id="perspective47997" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1096.866 : -1481.152 : 1"
+       id="perspective47995" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1035.4042 : -1481.2031 : 1"
+       id="perspective47993" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1066.18 : -1463.4342 : 1"
+       id="perspective47991" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.3184 : -1862.0051 : 1"
+       id="perspective47989" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1526.4689 : -1835.4827 : 1"
+       id="perspective47987" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.1837 : -1844.3399 : 1"
+       id="perspective47985" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1649.3025 : -1817.7127 : 1"
+       id="perspective47983" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1679.8986 : -1800.0486 : 1"
+       id="perspective47981" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1495.872 : -1817.7132 : 1"
+       id="perspective47979" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1465.0072 : -1800.101 : 1"
+       id="perspective47977" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.6767 : -1808.9066 : 1"
+       id="perspective47975" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.1829 : -1791.2949 : 1"
+       id="perspective47973" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1633.9587 : -1773.5259 : 1"
+       id="perspective47971" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.9908 : -1791.1901 : 1"
+       id="perspective47969" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1511.3947 : -1773.4211 : 1"
+       id="perspective47967" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.6767 : -1773.4735 : 1"
+       id="perspective47965" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1603.2728 : -1755.8094 : 1"
+       id="perspective47963" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1541.9009 : -1755.8094 : 1"
+       id="perspective47961" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1572.6767 : -1738.0405 : 1"
+       id="perspective47959" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1296.4143 : -1525.4413 : 1"
+       id="perspective47957" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1296.4143 : -1578.5909 : 1"
+       id="perspective47955" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1296.5038 : -1631.6879 : 1"
+       id="perspective47953" />
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="-317.74901 : 183.45247 : 0"
+       inkscape:vp_y="5.4920156e-14 : 896.94384 : 0"
+       inkscape:vp_z="592.37891 : 342.01013 : 0"
+       inkscape:persp3d-origin="-1296.4139 : -1684.8899 : 1"
+       id="perspective47951" />
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
        inkscape:vp_x="-317.74901 : 183.45247 : 0"
@@ -10197,35 +10890,35 @@
        inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_package_management.png"
        transform="matrix(1.0105574,0,0,1.0105574,-358.15694,693.06272)"
        id="g37210"
-       style="fill:#323a6f;fill-opacity:0.75111108">
+       style="fill:#546f32;fill-opacity:0.75111109">
       <g
          id="g37212"
-         style="fill:#323a6f;fill-opacity:0.75111108" />
+         style="fill:#546f32;fill-opacity:0.75111109" />
       <g
          id="g37214"
-         style="fill:#323a6f;fill-opacity:0.75111108">
+         style="fill:#546f32;fill-opacity:0.75111109">
         <g
            id="g37216"
-           style="fill:#323a6f;fill-opacity:0.75111108">
+           style="fill:#546f32;fill-opacity:0.75111109">
           <g
              id="g37218"
-             style="fill:#323a6f;fill-opacity:0.75111108">
+             style="fill:#546f32;fill-opacity:0.75111109">
             <g
                id="g37220"
-               style="fill:#323a6f;fill-opacity:0.75111108">
+               style="fill:#546f32;fill-opacity:0.75111109">
               <g
                  id="g37222"
-                 style="fill:#323a6f;fill-opacity:0.75111108">
+                 style="fill:#546f32;fill-opacity:0.75111109">
                 <g
                    id="g37224"
-                   style="fill:#323a6f;fill-opacity:0.75111108">
+                   style="fill:#546f32;fill-opacity:0.75111109">
                   <path
-                     style="fill:#323a6f;fill-opacity:0.75111108"
+                     style="fill:#546f32;fill-opacity:0.75111109"
                      inkscape:connector-curvature="0"
                      d="m 42.966,51.018 h 0.606 c -0.168,-0.14 -0.33,-0.268 -0.476,-0.422 -4.806,-4.341 -8.473,-12.778 -8.473,-19.599 0,-9.65 7.9,-15.998 15.371,-15.998 7.465,0 14.968,6.867 14.968,16.513 0,6.818 -4.056,14.999 -9.074,19.191 1.031,3.933 6.678,5.22 18.324,8.414 12.939,3.552 11.579,15.705 10.673,18.245 -1.497,4.195 -68.574,4.971 -69.839,0 C 14.765,75.305 11.8,62.669 24.741,59.117 36.067,56.008 41.709,54.703 42.966,51.018 z"
                      id="path37226" />
                   <path
-                     style="fill:#323a6f;fill-opacity:0.75111108"
+                     style="fill:#546f32;fill-opacity:0.75111109"
                      inkscape:connector-curvature="0"
                      d="m 43.572,51.018 h -0.606 c 0.05,-0.14 0.088,-0.275 0.129,-0.422 0.145,0.154 0.31,0.283 0.477,0.422 z"
                      id="path37228" />
@@ -10234,12 +10927,12 @@
             </g>
           </g>
           <path
-             style="fill:#323a6f;fill-opacity:0.75111108"
+             style="fill:#546f32;fill-opacity:0.75111109"
              inkscape:connector-curvature="0"
              d="m 24.331,57.623 2.164,-0.592 c 4.106,-1.121 7.357,-2.015 9.796,-2.903 -1.913,-0.847 -3.007,-1.78 -3.362,-3.132 1.643,-1.373 3.129,-3.331 4.302,-5.512 -2.513,-4.452 -4.157,-9.818 -4.157,-14.486 0,-1.709 0.289,-3.44 0.814,-5.118 -1.656,-1.024 -3.512,-1.602 -5.369,-1.602 -5.591,0 -11.503,4.75 -11.503,11.972 0,5.104 2.744,11.418 6.34,14.667 0.109,0.115 0.231,0.211 0.356,0.316 h -0.454 c -0.94,2.758 -5.162,3.734 -13.638,6.061 -9.684,2.658 -7.465,12.114 -7.255,13.653 0.272,1.069 4.622,1.781 10.697,2.181 -0.251,-10.054 5.789,-14.002 11.269,-15.505 z"
              id="path37230" />
           <path
-             style="fill:#323a6f;fill-opacity:0.75111108"
+             style="fill:#546f32;fill-opacity:0.75111109"
              inkscape:connector-curvature="0"
              d="m 75.385,57.623 -2.164,-0.592 c -4.106,-1.121 -7.357,-2.015 -9.796,-2.903 1.913,-0.847 3.007,-1.78 3.362,-3.132 -1.643,-1.373 -3.129,-3.331 -4.302,-5.512 2.513,-4.452 4.157,-9.818 4.157,-14.486 0,-1.709 -0.289,-3.44 -0.814,-5.118 1.656,-1.024 3.512,-1.602 5.369,-1.602 5.591,0 11.503,4.75 11.503,11.972 0,5.104 -2.744,11.418 -6.34,14.667 -0.109,0.115 -0.231,0.211 -0.356,0.316 h 0.454 c 0.94,2.758 5.162,3.734 13.638,6.061 9.684,2.658 7.465,12.114 7.255,13.653 -0.272,1.069 -4.622,1.781 -10.697,2.181 0.251,-10.054 -5.79,-14.002 -11.269,-15.505 z"
              id="path37232" />
@@ -10252,38 +10945,38 @@
        inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_package_management.png"
        inkscape:export-xdpi="44.349998"
        inkscape:export-ydpi="44.349998"
-       style="fill:#323a6f;fill-opacity:0.75111109">
+       style="fill:#546f32;fill-opacity:0.75111109">
       <g
          id="g37236"
-         style="fill:#323a6f;fill-opacity:0.75111109" />
+         style="fill:#546f32;fill-opacity:0.75111109" />
       <g
          id="g37238"
-         style="fill:#323a6f;fill-opacity:0.75111109">
+         style="fill:#546f32;fill-opacity:0.75111109">
         <g
            id="g37240"
-           style="fill:#323a6f;fill-opacity:0.75111109">
+           style="fill:#546f32;fill-opacity:0.75111109">
           <g
              id="g37242"
-             style="fill:#323a6f;fill-opacity:0.75111109">
+             style="fill:#546f32;fill-opacity:0.75111109">
             <g
                id="g37244"
-               style="fill:#323a6f;fill-opacity:0.75111109">
+               style="fill:#546f32;fill-opacity:0.75111109">
               <g
                  id="g37246"
-                 style="fill:#323a6f;fill-opacity:0.75111109">
+                 style="fill:#546f32;fill-opacity:0.75111109">
                 <g
                    id="g37248"
-                   style="fill:#323a6f;fill-opacity:0.75111109">
+                   style="fill:#546f32;fill-opacity:0.75111109">
                   <path
                      id="path37250"
                      d="m 42.966,51.018 h 0.606 c -0.168,-0.14 -0.33,-0.268 -0.476,-0.422 -4.806,-4.341 -8.473,-12.778 -8.473,-19.599 0,-9.65 7.9,-15.998 15.371,-15.998 7.465,0 14.968,6.867 14.968,16.513 0,6.818 -4.056,14.999 -9.074,19.191 1.031,3.933 6.678,5.22 18.324,8.414 12.939,3.552 11.579,15.705 10.673,18.245 -1.497,4.195 -68.574,4.971 -69.839,0 C 14.765,75.305 11.8,62.669 24.741,59.117 36.067,56.008 41.709,54.703 42.966,51.018 z"
                      inkscape:connector-curvature="0"
-                     style="fill:#323a6f;fill-opacity:0.75111109" />
+                     style="fill:#546f32;fill-opacity:0.75111109" />
                   <path
                      id="path37252"
                      d="m 43.572,51.018 h -0.606 c 0.05,-0.14 0.088,-0.275 0.129,-0.422 0.145,0.154 0.31,0.283 0.477,0.422 z"
                      inkscape:connector-curvature="0"
-                     style="fill:#323a6f;fill-opacity:0.75111109" />
+                     style="fill:#546f32;fill-opacity:0.75111109" />
                 </g>
               </g>
             </g>
@@ -10292,12 +10985,12 @@
              id="path37254"
              d="m 24.331,57.623 2.164,-0.592 c 4.106,-1.121 7.357,-2.015 9.796,-2.903 -1.913,-0.847 -3.007,-1.78 -3.362,-3.132 1.643,-1.373 3.129,-3.331 4.302,-5.512 -2.513,-4.452 -4.157,-9.818 -4.157,-14.486 0,-1.709 0.289,-3.44 0.814,-5.118 -1.656,-1.024 -3.512,-1.602 -5.369,-1.602 -5.591,0 -11.503,4.75 -11.503,11.972 0,5.104 2.744,11.418 6.34,14.667 0.109,0.115 0.231,0.211 0.356,0.316 h -0.454 c -0.94,2.758 -5.162,3.734 -13.638,6.061 -9.684,2.658 -7.465,12.114 -7.255,13.653 0.272,1.069 4.622,1.781 10.697,2.181 -0.251,-10.054 5.789,-14.002 11.269,-15.505 z"
              inkscape:connector-curvature="0"
-             style="fill:#323a6f;fill-opacity:0.75111109" />
+             style="fill:#546f32;fill-opacity:0.75111109" />
           <path
              id="path37256"
              d="m 75.385,57.623 -2.164,-0.592 c -4.106,-1.121 -7.357,-2.015 -9.796,-2.903 1.913,-0.847 3.007,-1.78 3.362,-3.132 -1.643,-1.373 -3.129,-3.331 -4.302,-5.512 2.513,-4.452 4.157,-9.818 4.157,-14.486 0,-1.709 -0.289,-3.44 -0.814,-5.118 1.656,-1.024 3.512,-1.602 5.369,-1.602 5.591,0 11.503,4.75 11.503,11.972 0,5.104 -2.744,11.418 -6.34,14.667 -0.109,0.115 -0.231,0.211 -0.356,0.316 h 0.454 c 0.94,2.758 5.162,3.734 13.638,6.061 9.684,2.658 7.465,12.114 7.255,13.653 -0.272,1.069 -4.622,1.781 -10.697,2.181 0.251,-10.054 -5.79,-14.002 -11.269,-15.505 z"
              inkscape:connector-curvature="0"
-             style="fill:#323a6f;fill-opacity:0.75111109" />
+             style="fill:#546f32;fill-opacity:0.75111109" />
         </g>
       </g>
     </g>
@@ -10307,38 +11000,38 @@
        inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_package_management.png"
        inkscape:export-xdpi="44.349998"
        inkscape:export-ydpi="44.349998"
-       style="fill:#323a6f;fill-opacity:0.75111108">
+       style="fill:#546f32;fill-opacity:0.75111109">
       <g
          id="g37260"
-         style="fill:#323a6f;fill-opacity:0.75111108" />
+         style="fill:#546f32;fill-opacity:0.75111109" />
       <g
          id="g37262"
-         style="fill:#323a6f;fill-opacity:0.75111108">
+         style="fill:#546f32;fill-opacity:0.75111109">
         <g
            id="g37264"
-           style="fill:#323a6f;fill-opacity:0.75111108">
+           style="fill:#546f32;fill-opacity:0.75111109">
           <g
              id="g37266"
-             style="fill:#323a6f;fill-opacity:0.75111108">
+             style="fill:#546f32;fill-opacity:0.75111109">
             <g
                id="g37268"
-               style="fill:#323a6f;fill-opacity:0.75111108">
+               style="fill:#546f32;fill-opacity:0.75111109">
               <g
                  id="g37270"
-                 style="fill:#323a6f;fill-opacity:0.75111108">
+                 style="fill:#546f32;fill-opacity:0.75111109">
                 <g
                    id="g37272"
-                   style="fill:#323a6f;fill-opacity:0.75111108">
+                   style="fill:#546f32;fill-opacity:0.75111109">
                   <path
                      id="path37274"
                      d="m 42.966,51.018 h 0.606 c -0.168,-0.14 -0.33,-0.268 -0.476,-0.422 -4.806,-4.341 -8.473,-12.778 -8.473,-19.599 0,-9.65 7.9,-15.998 15.371,-15.998 7.465,0 14.968,6.867 14.968,16.513 0,6.818 -4.056,14.999 -9.074,19.191 1.031,3.933 6.678,5.22 18.324,8.414 12.939,3.552 11.579,15.705 10.673,18.245 -1.497,4.195 -68.574,4.971 -69.839,0 C 14.765,75.305 11.8,62.669 24.741,59.117 36.067,56.008 41.709,54.703 42.966,51.018 z"
                      inkscape:connector-curvature="0"
-                     style="fill:#323a6f;fill-opacity:0.75111108" />
+                     style="fill:#546f32;fill-opacity:0.75111109" />
                   <path
                      id="path37276"
                      d="m 43.572,51.018 h -0.606 c 0.05,-0.14 0.088,-0.275 0.129,-0.422 0.145,0.154 0.31,0.283 0.477,0.422 z"
                      inkscape:connector-curvature="0"
-                     style="fill:#323a6f;fill-opacity:0.75111108" />
+                     style="fill:#546f32;fill-opacity:0.75111109" />
                 </g>
               </g>
             </g>
@@ -10347,12 +11040,12 @@
              id="path37278"
              d="m 24.331,57.623 2.164,-0.592 c 4.106,-1.121 7.357,-2.015 9.796,-2.903 -1.913,-0.847 -3.007,-1.78 -3.362,-3.132 1.643,-1.373 3.129,-3.331 4.302,-5.512 -2.513,-4.452 -4.157,-9.818 -4.157,-14.486 0,-1.709 0.289,-3.44 0.814,-5.118 -1.656,-1.024 -3.512,-1.602 -5.369,-1.602 -5.591,0 -11.503,4.75 -11.503,11.972 0,5.104 2.744,11.418 6.34,14.667 0.109,0.115 0.231,0.211 0.356,0.316 h -0.454 c -0.94,2.758 -5.162,3.734 -13.638,6.061 -9.684,2.658 -7.465,12.114 -7.255,13.653 0.272,1.069 4.622,1.781 10.697,2.181 -0.251,-10.054 5.789,-14.002 11.269,-15.505 z"
              inkscape:connector-curvature="0"
-             style="fill:#323a6f;fill-opacity:0.75111108" />
+             style="fill:#546f32;fill-opacity:0.75111109" />
           <path
              id="path37280"
              d="m 75.385,57.623 -2.164,-0.592 c -4.106,-1.121 -7.357,-2.015 -9.796,-2.903 1.913,-0.847 3.007,-1.78 3.362,-3.132 -1.643,-1.373 -3.129,-3.331 -4.302,-5.512 2.513,-4.452 4.157,-9.818 4.157,-14.486 0,-1.709 -0.289,-3.44 -0.814,-5.118 1.656,-1.024 3.512,-1.602 5.369,-1.602 5.591,0 11.503,4.75 11.503,11.972 0,5.104 -2.744,11.418 -6.34,14.667 -0.109,0.115 -0.231,0.211 -0.356,0.316 h 0.454 c 0.94,2.758 5.162,3.734 13.638,6.061 9.684,2.658 7.465,12.114 7.255,13.653 -0.272,1.069 -4.622,1.781 -10.697,2.181 0.251,-10.054 -5.79,-14.002 -11.269,-15.505 z"
              inkscape:connector-curvature="0"
-             style="fill:#323a6f;fill-opacity:0.75111108" />
+             style="fill:#546f32;fill-opacity:0.75111109" />
         </g>
       </g>
     </g>
@@ -11168,7 +11861,7 @@
        id="path38724"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc"
-       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_package_test.png"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_modularization.png"
        inkscape:export-xdpi="44.349998"
        inkscape:export-ydpi="44.349998" />
     <g
@@ -11178,7 +11871,7 @@
        id="g37768"
        style="fill:#2b3817;fill-opacity:1;stroke:none"
        sodipodi:type="inkscape:box3d"
-       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_package_test.png"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_modularization.png"
        inkscape:export-xdpi="44.349998"
        inkscape:export-ydpi="44.349998">
       <path
@@ -15585,6 +16278,1562 @@
          style="fill:#73ab2d;fill-rule:evenodd;stroke:none;fill-opacity:1"
          inkscape:box3dsidetype="3"
          d="m -2531.5905,1504.1331 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+    </g>
+    <path
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path46983"
+       d="m -2316.7767,2301.3918 153.4296,88.5827 c 10.6605,6.1549 23.9925,3.8645 30.686,0 l 153.4297,-88.5827 c 9.1679,-5.2931 10.7584,-11.5052 0,-17.7166 l -153.4296,-88.5827 c -9.1308,-5.2662 -22.1152,-4.9484 -30.686,0 l -153.111,88.4995 c -8.8053,5.0837 -7.5535,13.6228 -0.3187,17.7998 z"
+       style="fill:#000000;fill-opacity:0.05333336;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.15555558;stroke-dasharray:none" />
+    <path
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path47001"
+       d="m -2608.2932,2593.7152 122.7437,70.8661 c 10.6605,6.1549 23.9925,3.8645 30.686,0 l 122.7437,-70.8661 c 9.1679,-5.2931 10.7584,-11.5052 0,-17.7166 l -122.7437,-70.8661 c -9.1308,-5.2662 -22.1152,-4.9484 -30.686,0 l -122.425,70.7829 c -8.8053,5.0837 -7.5535,13.6228 -0.3187,17.7998 z"
+       style="fill:#000000;fill-opacity:0.05333336;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.15555558;stroke-dasharray:none" />
+    <path
+       style="fill:#000000;fill-opacity:0.05333336;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.15555558;stroke-dasharray:none"
+       d="m -2746.3799,2407.6915 122.7437,70.8661 c 10.6605,6.1549 23.9925,3.8645 30.686,0 l 122.7437,-70.8661 c 9.1679,-5.2931 10.7584,-11.5052 0,-17.7166 l -122.7437,-70.8661 c -9.1308,-5.2662 -22.1152,-4.9484 -30.686,0 l -122.425,70.7829 c -8.8053,5.0837 -7.5535,13.6228 -0.3187,17.7998 z"
+       id="path47145"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998" />
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g47175"
+       inkscape:perspectiveID="#perspective48027"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47177"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2148.0158,2239.3691 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47179"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2178.7022,2257.0859 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47181"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2178.7022,2292.5199 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47183"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2178.7022,2257.0859 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47185"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2148.1057,2274.7508 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47187"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2178.7022,2257.0859 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48035"
+       id="g47231"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d">
+      <path
+         d="m -2178.6119,2168.5553 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path47233"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2983,2186.2721 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path47235"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2983,2221.7061 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path47237"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2983,2186.2721 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path47239"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2178.7018,2203.937 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path47241"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2983,2186.2721 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path47243"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g47315"
+       inkscape:perspectiveID="#perspective48047"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47317"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2178.6119,2115.4057 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47319"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2209.2983,2133.1225 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47321"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2209.2983,2168.5565 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47323"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2209.2983,2133.1225 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47325"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2178.7018,2150.7874 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47327"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2209.2983,2133.1225 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g47343"
+       inkscape:perspectiveID="#perspective48051"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47345"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2117.3299,2203.936 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47347"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2148.0163,2221.6528 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47349"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2148.0163,2257.0868 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47351"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2148.0163,2221.6528 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47353"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2117.4198,2239.3177 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47355"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2148.0163,2221.6528 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g47371"
+       inkscape:perspectiveID="#perspective48055"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47373"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2117.24,2150.8388 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47375"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2147.9264,2168.5556 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47377"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2147.9264,2203.9896 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47379"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2147.9264,2168.5556 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47381"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2117.3299,2186.2205 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path47383"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2147.9264,2168.5556 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <path
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:connector-curvature="0"
+       id="path47401"
+       d="m -1825.8018,2407.6409 168.7726,97.4409 c 10.6605,6.1549 23.9925,3.8645 30.686,0 l 168.7726,-97.4409 c 9.1679,-5.2931 10.7584,-11.5052 0,-17.7166 l -168.7726,-97.4409 c -9.1308,-5.2662 -22.1152,-4.9484 -30.686,0 l -168.4539,97.3577 c -8.8053,5.0837 -7.5535,13.6228 -0.3187,17.7998 z"
+       style="fill:#000000;fill-opacity:0.05333336;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.15555558;stroke-dasharray:none" />
+    <path
+       style="fill:#000000;fill-opacity:0.05333336;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.15555558;stroke-dasharray:none"
+       d="m -2332.1197,2682.2475 168.7726,97.4409 c 10.6605,6.1549 23.9925,3.8645 30.686,0 l 168.7726,-97.4409 c 9.1679,-5.2931 10.7584,-11.5052 0,-17.7166 l -168.7726,-97.4409 c -9.1308,-5.2662 -22.1152,-4.9484 -30.686,0 l -168.4539,97.3577 c -8.8053,5.0837 -7.5535,13.6228 -0.3187,17.7998 z"
+       id="path47629"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998" />
+    <path
+       style="fill:#000000;fill-opacity:0.05333336;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:0.15555558;stroke-dasharray:none"
+       d="m -1948.6353,2567.0879 60.6767,33.9578 c 10.6605,6.1549 24.6876,5.3398 31.3811,1.4753 l 61.3719,-35.4331 c 9.1679,-5.2931 7.2946,-13.4606 -3.4638,-19.672 l -57.358,-32.0416 c -9.1308,-5.2662 -23.2064,-5.9711 -31.7772,-1.0227 l -60.512,34.9365 c -8.8053,5.0837 -7.5535,13.6228 -0.3187,17.7998 z"
+       id="path47871"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998" />
+    <path
+       style="fill:#000000;fill-opacity:0.05490196;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.19607843;stroke-dasharray:none"
+       d="m -2362.8057,2345.6836 -30.6859,-17.7165 -61.3718,0 -30.686,17.7165 -15.343,-8.8583 0,17.7166 30.686,17.7165 30.686,0 -15.343,-8.8582 15.343,-8.8582 30.6858,-10e-5 30.6859,17.7165 92.0579,0 30.6859,-17.7165 -30.6859,-17.7165 -15.343,8.8582 z"
+       id="path47915"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998" />
+    <path
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path47917"
+       d="m -2255.4049,2425.408 -30.6859,17.7166 0,53.1496 -61.3719,35.433 -15.343,-8.8582 0,17.7165 30.686,17.7165 30.686,0 -15.343,-8.8583 61.3718,-35.433 0,-53.1496 30.686,-17.7165 0,-35.4331 30.6859,-17.7166 -30.6859,-17.7165 -30.686,17.7166 z"
+       style="fill:#000000;fill-opacity:0.05490196;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.19607843;stroke-dasharray:none" />
+    <path
+       style="fill:#000000;fill-opacity:0.05490196;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.19607843;stroke-dasharray:none"
+       d="m -2163.347,2407.6915 1e-4,60.1577 -1e-4,63.858 -30.686,0 30.686,17.7166 30.6859,0 30.6859,-17.7166 -30.6859,0 -1e-4,-53.1495 2e-4,-70.8662 z"
+       id="path47919"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998" />
+    <path
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:connector-curvature="0"
+       id="path47921"
+       d="m -1963.8884,2345.6836 61.3718,-35.4331 92.0578,10e-5 30.686,17.7165 15.343,-8.8583 0,17.7166 -30.686,17.7165 -30.686,0 15.343,-8.8583 -15.343,-8.8582 -61.3718,0 -61.3718,35.433 -61.372,0 -30.6859,-17.7165 30.6859,-17.7166 15.343,8.8583 z"
+       style="fill:#000000;fill-opacity:0.05490196;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.19607843;stroke-dasharray:none" />
+    <path
+       style="fill:#000000;fill-opacity:0.05490196;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0.19607843;stroke-dasharray:none"
+       d="m -2040.6033,2425.408 30.6859,17.7166 10e-5,17.7166 76.7148,44.2912 15.343,-8.8582 0,17.7165 -30.686,17.7165 -30.686,0 15.343,-8.8583 -76.7147,-44.2912 -10e-5,-17.7166 -30.686,-17.7165 0,-35.4331 -30.6859,-17.7166 30.6859,-17.7165 30.686,17.7166 z"
+       id="path47923"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccc"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998" />
+    <g
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48548"
+       inkscape:perspectiveID="#perspective48610"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48550"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -1672.4731,2336.7574 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48552"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -1703.1595,2354.4742 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48554"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -1703.1595,2389.9082 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48556"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -1703.1595,2354.4742 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48558"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -1672.563,2372.1391 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48560"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -1703.1595,2354.4742 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48612"
+       id="g48534"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1641.6977,2301.377 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48536"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1672.3841,2319.0938 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48538"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1672.3841,2354.5278 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48540"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1672.3841,2319.0938 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48542"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.7876,2336.7587 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48544"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1672.3841,2319.0938 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48546"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48608"
+       id="g48562"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1672.2938,2230.5632 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48564"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1702.9802,2248.28 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48566"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1702.9802,2283.714 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48568"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1702.9802,2248.28 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48570"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1672.3837,2265.9449 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48572"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1702.9802,2248.28 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48574"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48606"
+       id="g48576"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1611.0118,2372.2431 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48578"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6982,2389.9599 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48580"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6982,2425.3939 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48582"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6982,2389.9599 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48584"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1611.1017,2407.6248 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48586"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6982,2389.9599 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48588"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48604"
+       id="g48590"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1610.9219,2265.9963 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48592"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6083,2283.7131 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48594"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6083,2319.1471 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48596"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6083,2283.7131 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48598"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1611.0118,2301.378 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48600"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1641.6083,2283.7131 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48602"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48628"
+       inkscape:perspectiveID="#perspective48690"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48630"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2638.9009,2328.0041 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48632"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2669.5873,2345.7209 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48634"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2669.5873,2381.1549 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48636"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2669.5873,2345.7209 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48638"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2638.9908,2363.3858 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48640"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2669.5873,2345.7209 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48688"
+       id="g48642"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -2638.9009,2274.8545 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48644"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2669.5873,2292.5713 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48646"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2669.5873,2328.0053 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48648"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2669.5873,2292.5713 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48650"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2638.9908,2310.2362 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48652"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2669.5873,2292.5713 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48654"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48686"
+       id="g48656"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -2577.6189,2363.3848 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48658"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.3053,2381.1016 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48660"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.3053,2416.5356 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48662"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.3053,2381.1016 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48664"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2577.7088,2398.7665 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48666"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.3053,2381.1016 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48668"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48684"
+       id="g48670"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -2577.529,2310.2876 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48672"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.2154,2328.0044 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48674"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.2154,2363.4384 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48676"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.2154,2328.0044 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48678"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2577.6189,2345.6693 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48680"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2608.2154,2328.0044 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48682"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48708"
+       inkscape:perspectiveID="#perspective48722"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48710"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2608.3048,2239.3691 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48712"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2638.9912,2257.0859 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48714"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2638.9912,2292.5199 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48716"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2638.9912,2257.0859 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48718"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2608.3947,2274.7508 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48720"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2638.9912,2257.0859 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48804"
+       id="g48726"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d">
+      <path
+         d="m -2485.3818,2522.9387 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48728"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.0682,2540.6555 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48730"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.0682,2576.0895 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48732"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.0682,2540.6555 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48734"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2485.4717,2558.3204 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48736"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.0682,2540.6555 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48738"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48740"
+       inkscape:perspectiveID="#perspective48802"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48742"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2485.3818,2469.7891 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48744"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2516.0682,2487.5059 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48746"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2516.0682,2522.9399 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48748"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2516.0682,2487.5059 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48750"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2485.4717,2505.1708 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48752"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2516.0682,2487.5059 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48754"
+       inkscape:perspectiveID="#perspective48800"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48756"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2454.7853,2540.6026 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48758"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2485.4717,2558.3194 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48760"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2485.4717,2593.7534 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48762"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2485.4717,2558.3194 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48764"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2454.8752,2575.9843 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48766"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2485.4717,2558.3194 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48796"
+       id="g48782"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -2485.4713,2416.5868 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48784"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.1577,2434.3036 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48786"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.1577,2469.7376 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48788"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.1577,2434.3036 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48790"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2485.5612,2451.9685 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48792"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2516.1577,2434.3036 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48794"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48884"
+       id="g48806"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d">
+      <path
+         d="m -2178.522,2611.5211 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48808"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2084,2629.2379 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48810"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2084,2664.6719 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48812"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2084,2629.2379 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48814"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2178.6119,2646.9028 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48816"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2209.2084,2629.2379 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48818"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48820"
+       inkscape:perspectiveID="#perspective48882"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48822"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2178.522,2558.3715 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48824"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2209.2084,2576.0883 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48826"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2209.2084,2611.5223 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48828"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2209.2084,2576.0883 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48830"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2178.6119,2593.7532 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48832"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2209.2084,2576.0883 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48834"
+       inkscape:perspectiveID="#perspective48880"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48836"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2117.24,2646.9018 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48838"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2147.9264,2664.6186 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48840"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2147.9264,2700.0526 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48842"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2147.9264,2664.6186 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48844"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2117.3299,2682.2835 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48846"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2147.9264,2664.6186 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48848"
+       inkscape:perspectiveID="#perspective48878"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48850"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -2117.1501,2593.8046 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48852"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -2147.8365,2611.5214 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48854"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -2147.8365,2646.9554 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48856"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -2147.8365,2611.5214 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48858"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -2117.24,2629.1863 0,35.434 30.6864,-17.7167 0,-35.4341 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48860"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -2147.8365,2611.5214 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z" />
+    </g>
+    <g
+       inkscape:corner7="1.8111986 : -0.19060727 : 0.051801931 : 1"
+       inkscape:corner0="1.90749 : -0.15110192 : 0 : 1"
+       inkscape:perspectiveID="#perspective48876"
+       id="g48862"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -2147.9259,2522.8861 30.5965,17.6649 0,35.4341 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48864"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2178.6123,2540.6029 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48866"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2178.6123,2576.0369 30.5965,17.6649 30.6864,-17.7167 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48868"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2178.6123,2540.6029 30.5965,17.6649 30.6864,-17.7168 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48870"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2148.0158,2558.2678 0,35.434 30.6864,-17.7167 0,-35.4341 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48872"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -2178.6123,2540.6029 30.5965,17.6649 0,35.434 -30.5965,-17.6649 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48874"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48886"
+       inkscape:perspectiveID="#perspective48932"
+       inkscape:corner0="1.90749 : -0.1708546 : 0 : 1"
+       inkscape:corner7="1.8592022 : -0.19060671 : 0.025900598 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48888"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -1902.4679,2522.8176 15.3434,8.8586 0,17.7165 -15.3434,-8.8585 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48890"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -1917.8109,2531.6759 0,17.7165 15.343,-8.8582 0,-17.7166 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48892"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -1917.8109,2549.3924 15.3434,8.8586 15.343,-8.8583 -15.3434,-8.8585 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48894"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -1917.8109,2531.6759 15.3434,8.8585 15.343,-8.8582 -15.3434,-8.8586 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48896"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -1902.4675,2540.5344 0,17.7166 15.343,-8.8583 0,-17.7165 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48898"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -1917.8109,2531.6759 15.3434,8.8585 0,17.7166 -15.3434,-8.8586 z" />
+    </g>
+    <g
+       inkscape:corner7="1.8592022 : -0.19060671 : 0.025900598 : 1"
+       inkscape:corner0="1.90749 : -0.1708546 : 0 : 1"
+       inkscape:perspectiveID="#perspective48930"
+       id="g48900"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1902.1541,2496.8411 15.3434,8.8586 0,17.7165 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48902"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1917.4971,2505.6994 0,17.7165 15.343,-8.8582 0,-17.7166 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48904"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1917.4971,2523.4159 15.3434,8.8586 15.343,-8.8583 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48906"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1917.4971,2505.6994 15.3434,8.8585 15.343,-8.8582 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48908"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1902.1537,2514.5579 0,17.7166 15.343,-8.8583 0,-17.7165 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48910"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1917.4971,2505.6994 15.3434,8.8585 0,17.7166 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48912"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48914"
+       inkscape:perspectiveID="#perspective48928"
+       inkscape:corner0="1.90749 : -0.1708546 : 0 : 1"
+       inkscape:corner7="1.8592022 : -0.19060671 : 0.025900598 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48916"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -1902.2068,2469.5177 15.3434,8.8586 0,17.7165 -15.3434,-8.8585 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48918"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -1917.5498,2478.376 0,17.7165 15.343,-8.8582 0,-17.7166 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48920"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -1917.5498,2496.0925 15.3434,8.8586 15.343,-8.8583 -15.3434,-8.8585 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48922"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -1917.5498,2478.376 15.3434,8.8585 15.343,-8.8582 -15.3434,-8.8586 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48924"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -1902.2064,2487.2345 0,17.7166 15.343,-8.8583 0,-17.7165 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48926"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -1917.5498,2478.376 15.3434,8.8585 0,17.7166 -15.3434,-8.8586 z" />
+    </g>
+    <g
+       inkscape:corner7="1.8592022 : -0.19060671 : 0.025900598 : 1"
+       inkscape:corner0="1.90749 : -0.1708546 : 0 : 1"
+       inkscape:perspectiveID="#perspective48976"
+       id="g48962"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1886.8634,2478.3762 15.3434,8.8586 0,17.7165 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48964"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1902.2064,2487.2345 0,17.7165 15.343,-8.8582 0,-17.7166 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path48966"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1902.2064,2504.951 15.3434,8.8586 15.343,-8.8583 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path48968"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1902.2064,2487.2345 15.3434,8.8585 15.343,-8.8582 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path48970"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1886.863,2496.093 0,17.7166 15.343,-8.8583 0,-17.7165 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path48972"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1902.2064,2487.2345 15.3434,8.8585 0,17.7166 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path48974"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:export-ydpi="44.349998"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       sodipodi:type="inkscape:box3d"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       id="g48982"
+       inkscape:perspectiveID="#perspective49028"
+       inkscape:corner0="1.90749 : -0.1708546 : 0 : 1"
+       inkscape:corner7="1.8592022 : -0.19060671 : 0.025900598 : 1">
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48984"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="11"
+         d="m -1871.7815,2540.5344 15.3434,8.8586 0,17.7165 -15.3434,-8.8585 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48986"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="6"
+         d="m -1887.1245,2549.3927 0,17.7165 15.343,-8.8582 0,-17.7166 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48988"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="13"
+         d="m -1887.1245,2567.1092 15.3434,8.8586 15.343,-8.8583 -15.3434,-8.8585 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48990"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="5"
+         d="m -1887.1245,2549.3927 15.3434,8.8585 15.343,-8.8582 -15.3434,-8.8586 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48992"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="14"
+         d="m -1871.7811,2558.2512 0,17.7166 15.343,-8.8583 0,-17.7165 z" />
+      <path
+         sodipodi:type="inkscape:box3dside"
+         id="path48994"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         inkscape:box3dsidetype="3"
+         d="m -1887.1245,2549.3927 15.3434,8.8585 0,17.7166 -15.3434,-8.8586 z" />
+    </g>
+    <g
+       inkscape:corner7="1.8592022 : -0.19060671 : 0.025900598 : 1"
+       inkscape:corner0="1.90749 : -0.1708546 : 0 : 1"
+       inkscape:perspectiveID="#perspective49026"
+       id="g48996"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1871.4677,2514.5579 15.3434,8.8586 0,17.7165 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path48998"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1886.8107,2523.4162 0,17.7165 15.343,-8.8582 0,-17.7166 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path49000"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1886.8107,2541.1327 15.3434,8.8586 15.343,-8.8583 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path49002"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1886.8107,2523.4162 15.3434,8.8585 15.343,-8.8582 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path49004"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1871.4673,2532.2747 0,17.7166 15.343,-8.8583 0,-17.7165 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path49006"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1886.8107,2523.4162 15.3434,8.8585 0,17.7166 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path49008"
+         sodipodi:type="inkscape:box3dside" />
+    </g>
+    <g
+       inkscape:corner7="1.8592022 : -0.19060671 : 0.025900598 : 1"
+       inkscape:corner0="1.90749 : -0.1708546 : 0 : 1"
+       inkscape:perspectiveID="#perspective49072"
+       id="g49058"
+       style="fill:#2b3817;fill-opacity:1;stroke:none"
+       sodipodi:type="inkscape:box3d"
+       inkscape:export-filename="/home/skore/workspace/mangrove-product/img/flowchart_placeholder.png"
+       inkscape:export-xdpi="44.349998"
+       inkscape:export-ydpi="44.349998">
+      <path
+         d="m -1856.2386,2496.1092 15.3434,8.8586 0,17.7165 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="11"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none"
+         id="path49060"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1871.5816,2504.9675 0,17.7165 15.343,-8.8582 0,-17.7166 z"
+         inkscape:box3dsidetype="6"
+         style="fill:#353564;fill-rule:evenodd;stroke:none"
+         id="path49062"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1871.5816,2522.684 15.3434,8.8586 15.343,-8.8583 -15.3434,-8.8585 z"
+         inkscape:box3dsidetype="13"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none"
+         id="path49064"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1871.5816,2504.9675 15.3434,8.8585 15.343,-8.8582 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="5"
+         style="fill:#407c0d;fill-rule:evenodd;stroke:none"
+         id="path49066"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1856.2382,2513.826 0,17.7166 15.343,-8.8583 0,-17.7165 z"
+         inkscape:box3dsidetype="14"
+         style="fill:#dde78c;fill-rule:evenodd;stroke:none"
+         id="path49068"
+         sodipodi:type="inkscape:box3dside" />
+      <path
+         d="m -1871.5816,2504.9675 15.3434,8.8585 0,17.7166 -15.3434,-8.8586 z"
+         inkscape:box3dsidetype="3"
+         style="fill:#73ab2d;fill-rule:evenodd;stroke:none"
+         id="path49070"
+         sodipodi:type="inkscape:box3dside" />
     </g>
   </g>
 </svg>
