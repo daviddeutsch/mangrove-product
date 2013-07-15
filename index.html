@@ -11,6 +11,10 @@
 	<link href="css/mangrove.css" rel="stylesheet">
 	<script src="js/modernizr.custom.31098.js"></script>
 	<style type="text/css">
+	.container {
+		/* Why this value? */
+		max-width: 1170px;
+	}
 	.jumbotron .container {
 		/* Use a proportional margin, works better on smaller devices */
 		margin-top: 5%;
@@ -40,6 +44,10 @@
 	.separator {
 		display: block;
 		text-align: center;
+	}
+	.is-hidden {
+		position: absolute;
+		left: -9999em;
 	}
 	</style>
 </head>
@@ -101,7 +109,7 @@
 			<div class="row">
 				<div class="span12 text-center backdrop heartbeat-container">
 					<br />
-					<h2>we <i class="icon-heart heartbeat"></i> automation</h2>
+					<h2>we <i class="icon-heart heartbeat"><span class="is-hidden">love</span></i> automation</h2>
 					<p>...so our mission is that mangrove not only<br /><strong>does your laundry for you</strong>,<br />but <em>shop for your clothes and wear them, too</em>.</p>
 					<p>It's <strong>that good</strong>.</p>
 				</div>
