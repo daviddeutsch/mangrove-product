@@ -30,11 +30,16 @@ body {
   text-align: center;
   overflow: hidden;
   .container {
-    margin-top: 80px;
+	margin-top: 5%;
   }
   h3 {
 	text-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
+}
+
+.tagline {
+  display: block;
+  font-size: 28px;
 }
 
 br.shallow {
@@ -48,6 +53,8 @@ br.shallow {
 }
 
 .container {
+  /* Why this value? */
+  max-width: 1170px;
   padding: 16px inherit;
   > h4 {
     margin-top: 24px;
@@ -56,6 +63,17 @@ br.shallow {
   img {
 	margin: 24px auto;
   }
+}
+
+.img.span8 {
+  margin-top: 0;
+  margin-right: 0;
+}
+.img .img-illustration {
+  margin: 0;
+}
+.img-illustration {
+  min-width: 100%;
 }
 
 .bubble {
@@ -69,6 +87,23 @@ br.shallow {
   h4, p, i {
 	color: #fff;
   }
+  &-big {
+	line-height: .833em;
+	margin: .417em 0;
+  }
+}
+
+.keytext {
+  display: block;
+  line-height: 130%;
+}
+
+h2,
+.keytext,
+.bubble-big {
+  font-family: @niceFontFamily;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .backdrop {
@@ -242,7 +277,32 @@ tabset {
   padding-top: 50px;
 }
 
-.footer {
+footer {
   min-height: 300px;
   padding: 32px 0;
 }
+
+.separator {
+  display: block;
+  text-align: center;
+}
+
+.separator>img {
+  /* Can use a but more whitespace between sections */
+  /* Totally up to you oc */
+  margin: 48px;
+  min-width: 0;
+  /* May never extend its own width or it will get blurry */
+  max-width: 940px;
+}
+
+.separator+h2 {
+  /* Collapse top margin on a header that follows directly after a separator */
+  margin-top: 0;
+}
+
+.is-hidden {
+  position: absolute;
+  left: -9999em;
+}
+

@@ -11,66 +11,7 @@
 	<link href="css/mangrove.css" rel="stylesheet">
 	<script src="js/modernizr.custom.31098.js"></script>
 	<style type="text/css">
-	.container {
-		/* Why this value? */
-		max-width: 1170px;
-	}
-	.jumbotron .container {
-		/* Use a proportional margin, works better on smaller devices */
-		margin-top: 5%;
-	}
-	.tagline {
-		display: block;
-		font-size: 28px;
-	}
-	h2,
-	.keytext,
-	.bubble-big {
-		font-family: Signika, sans-serif;
-		font-size: 24px;
-		font-weight: 500;
-	}
-	.keytext {
-		display: block;
-		line-height: 130%;
-	}
-	.bubble {
-		color: #fff;
-	}
-	.bubble-big {
-		line-height: .833em;
-		margin: .417em 0;
-	}
-	.separator {
-		display: block;
-		text-align: center;
-	}
-	.separator>img {
-		/* Can use a but more whitespace between sections */
-		/* Totally up to you oc */
-		margin: 48px;
-		min-width: 0;
-		/* May never extend its own width or it will get blurry */
-		max-width: 940px;
-	}
-	.separator+h2 {
-		/* Collapse top margin on a header that follows directly after a separator */
-		margin-top: 0;
-	}
-	.is-hidden {
-		position: absolute;
-		left: -9999em;
-	}
-	.img.span8 {
-		margin-top: 0;
-		margin-right: 0;
-	}
-	.img .img-illustration {
-		margin: 0;
-	}
-	.img-illustration {
-		min-width: 100%;
-	}
+
 	</style>
 </head>
 <body>
@@ -169,7 +110,7 @@
 				</div>
 
 				<figure class="text-center span8 img">
-					<img src="img/flowchart_package_management.png" class="img-illustration" alt="" width="840" width="433" />
+					<img src="img/flowchart_package_management.png" class="img-illustration" alt="" width="840" height="433" />
 				</figure>
 			</div>
 
@@ -220,61 +161,67 @@
 			<br />
 
 			<div class="row">
-				<div class="span3 text-center">
+				<div class="span4 text-center">
 					<i class="icon-circle-blank icon-4x icon-li"></i>
 					<h5>Install <strong>less</strong></h5>
-					<p><strong>Install only the parts you need.</strong><br />Bye bye "firehose-install-everything"</p>
-					<div ng-controller="CollapseCtrl">
-						<p class="text-center">
-							<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
-						</p>
-						<div collapse="!isCollapsed">
-							<p class="text-center">
-								<img src="img/flowchart-installless.jpg" />
-								<br />This flowchart shows how instead of installing a full package with many smaller parts, you just install the parts that you need.
-							</p>
-						</div>
-					</div>
+					<p class="text-center">
+						<button class="btn btn-mini" >Show me how</button>
+					</p>
 				</div>
-				<div class="span3 text-center">
+				<figure class="text-center span8 img">
+					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
+					<figcaption>
+						<p><strong>Install only the parts you need.</strong><br />Bye bye "firehose-install-everything"</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="row">
+				<div class="span4 text-center">
 					<i class="icon-dashboard icon-4x icon-li"></i>
 					<h5>Install <strong>faster</strong></h5>
-					<p>Including one-click<br />(and automatic)<br />installs and updates.</p>
-					<div ng-controller="CollapseCtrl">
-						<p class="text-center">
-							<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">How fast, really?</button>
-						</p>
-						<div collapse="!isCollapsed">
-							<p class="text-center">
-								<img class="img-illustration" src="http://placehold.it/960x450&text=Speed demo?" alt="" width="660" height="450" />
-								<br />Not really sure what to do here... a comparison? Just a video?
-							</p>
-						</div>
-					</div>
+					<p class="text-center">
+						<button class="btn btn-mini" >Show me how</button>
+					</p>
 				</div>
-				<div class="span3 text-center">
+				<figure class="text-center span8 img is-hidden">
+					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
+					<figcaption>
+						<p>Including one-click<br />(and automatic)<br />installs and updates.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="row">
+				<div class="span4 text-center">
 					<i class="icon-cloud-download icon-4x icon-li"></i>
 					<h5>Get <strong>new features</strong> faster</h5>
-					<p>No more waiting for the next "big" release, get plugins and features ahead of major releases.</p>
+					<p class="text-center">
+						<button class="btn btn-mini" >Show me how</button>
+					</p>
 				</div>
-				<div class="span3 text-center">
+				<figure class="text-center span8 img is-hidden">
+					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
+					<figcaption>
+						<p>No more waiting for the next "big" release, get plugins and features ahead of major releases.</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="row">
+				<div class="span4 text-center">
 					<i class="icon-wrench icon-4x icon-li"></i>
 					<h5>Development Builds<br /><strong>without the headaches</strong></h5>
-					<p>mangrove makes using bleeding edge builds both safer and more convenient</p>
-					<div ng-controller="CollapseCtrl">
-						<p class="text-center">
-							<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
-						</p>
-						<div collapse="!isCollapsed">
-							<p class="text-center">
-								<img src="img/flowchart-developmentbuilds.jpg" />
-								<br />A user finds a bug and reports it to the support team. They file a bug report and a new branch of the source code is set up. After a fix has been found, the user installs only the fixed branch, not a completely new package.
-								Sometimes, you need to use bleeding edge software. If everything goes right, that gets you all the fixes you need. Unfortunately, however, you may also get some new bugs you didn't want.
-								With mangrove, software developers can split off fixes into separate branches so you only get the version you need, not all the changes that you're not ready for, yet (for instance when receiving support on a bug).
-							</p>
-						</div>
-					</div>
+					<p class="text-center">
+						<button class="btn btn-mini" >Show me how</button>
+					</p>
 				</div>
+				<figure class="text-center span8 img is-hidden">
+					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
+					<figcaption>
+						<p>mangrove makes using bleeding edge builds both safer and more convenient</p>
+						<p>A user finds a bug and reports it to the support team. They file a bug report and a new branch of the source code is set up. After a fix has been found, the user installs only the fixed branch, not a completely new package.</p>
+						<p>Sometimes, you need to use bleeding edge software. If everything goes right, that gets you all the fixes you need. Unfortunately, however, you may also get some new bugs you didn't want.</p>
+						<p>With mangrove, software developers can split off fixes into separate branches so you only get the version you need, not all the changes that you're not ready for, yet (for instance when receiving support on a bug).</p>
+					</figcaption>
+				</figure>
 			</div>
 		</section>
 
@@ -294,7 +241,7 @@
 				</div>
 				<div class="span4 text-center">
 					<i class="icon-random icon-4x icon-li"></i>
-					<h5>Manage <strong>your sources</strong><br /><strong>your way</strong></strong></h5>
+					<h5>Manage <strong>your sources</strong><br /><strong>your way</strong></h5>
 					<p>Including your own (which might be transparent relays to other servers).</p>
 				</div>
 				<div class="span4 text-center">
@@ -437,7 +384,7 @@
 	</div>
 	</div>
 
-	<footer class="footer" role="footer">
+	<footer role="footer">
 		<div class="container text-center">
 			<p>Valanx Copyright © 2013.</p>
 			<p></p>
