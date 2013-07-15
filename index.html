@@ -23,6 +23,9 @@
 		display: block;
 		font-size: 28px;
 	}
+	.menu-text {
+		padding-left: 2em;
+	}
 	h2,
 	.keytext,
 	.bubble-big {
@@ -89,6 +92,16 @@
 			margin-right: 0;
 			max-width: 100%;
 		}
+		.menu {
+			padding-bottom: 5px;
+		}
+		.scrollshow {
+			display: block;
+		}
+		.menu-text {
+			/*display: block;*/
+			padding-left: 0;
+		}
 	}
 	</style>
 </head>
@@ -106,7 +119,11 @@
 
 	<div class="menu-placeholder">
 		<nav class="menu" ui-scrollfix="-260" role="navigation">
-			<p class="text-center"><span class="scrollshow"><img src="img/mangrove-logo-tiny.png" alt="Mangrove, Package Management Tool" /></span>&nbsp;&nbsp;&nbsp;<a href="#packagemanager">Package Management</a> for: <a href="#regularusers">Regular Users</a> | <a href="#sitedevelopers">Website Developers</a> | <a href="#softwaredevelopers">Software Developers</a></p>
+			<p class="text-center">
+				<span class="scrollshow"><img src="img/mangrove-logo-tiny.png" alt="Mangrove, Package Management Tool" /></span>
+				<span class="menu-text"><a href="#packagemanager">Package Management</a> for: </span>
+				<a href="#regularusers">Regular Users</a> | <a href="#sitedevelopers">Website Developers</a> | <a href="#softwaredevelopers">Software Developers</a>
+			</p>
 		</nav>
 	</div>
 
