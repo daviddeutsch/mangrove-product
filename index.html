@@ -45,9 +45,24 @@
 		display: block;
 		text-align: center;
 	}
+	.separator>img {
+		/* Can use a but more whitespace between sections */
+		/* Totally up to you oc */
+		margin: 48px;
+		min-width: 0;
+		/* May never extend its own width or it will get blurry */
+		max-width: 940px;
+	}
+	.separator+h2 {
+		/* Collapse top margin on a header that follows directly after a separator */
+		margin-top: 0;
+	}
 	.is-hidden {
 		position: absolute;
 		left: -9999em;
+	}
+	.img-illustration {
+		min-width: 100%;
 	}
 	</style>
 </head>
@@ -132,7 +147,7 @@
 		<span class="separator"><img src="img/line.png" alt="" width="940" height="3" /></span>
 
 		<section id="introduction" class="section">
-			<img src="http://placehold.it/960x450&text=Interface Screenshot" />
+			<img class="img-illustration" src="http://placehold.it/960x450&text=Interface Screenshot" alt="" width="960" height="450" />
 
 			<h2 id="packagemanager">So - what's a <strong>package manager</strong>?</h2>
 			<p>A package manager helps you install software without having to copy files or links into your system. They connect you to sources of packages </p>
@@ -217,7 +232,7 @@
 						</p>
 						<div collapse="!isCollapsed">
 							<p class="text-center">
-								<img src="http://placehold.it/660x450&text=Speed demo?" />
+								<img class="img-illustration" src="http://placehold.it/960x450&text=Speed demo?" alt="" width="660" height="450" />
 								<br />Not really sure what to do here... a comparison? Just a video?
 							</p>
 						</div>
@@ -250,7 +265,7 @@
 		</section>
 
 		<section id="sitedevelopers" class="section">
-			<img src="http://placehold.it/960x450&text=Screenshot" />
+			<img class="img-illustration" src="http://placehold.it/960x450&text=Screenshot" alt="" width="960" height="450" />
 
 			<h2>What's in it for... <strong>Site Developers</strong>?</h2>
 
@@ -277,7 +292,7 @@
 		</section>
 
 		<section id="softwaredevelopers" class="section">
-			<img src="http://placehold.it/960x450&text=Screenshot" />
+			<img class="img-illustration" src="http://placehold.it/960x450&text=Screenshot" alt="" width="960" height="450" />
 
 			<h2>What's in it for... <strong>Software Developers</strong>?</h2>
 
