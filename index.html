@@ -65,6 +65,12 @@
 		margin-top: 0;
 		margin-right: 0;
 	}
+	.img-left.span8 {
+		margin-left: 0;
+	}
+	.img-right.span8 {
+		margin-right: 0;
+	}
 	.img .img-illustration {
 		margin: 0;
 	}
@@ -168,7 +174,7 @@
 					<p>mangrove brings that concept into the joomla world in a more elegant way than existing solutions.</p>
 				</div>
 
-				<figure class="text-center span8 img">
+				<figure class="text-center span8 img img-right">
 					<img src="img/flowchart_package_management.png" class="img-illustration" alt="" width="840" width="433" />
 				</figure>
 			</div>
@@ -339,11 +345,11 @@
 
 				<br />
 
-				<div>
-					<p class="text-center">
-						<img src="img/flowchart_modularization.png" />
-					</p>
-					<div class="span8 offset2">
+				<div class="row">
+					<figure class="text-center span8 img img-left">
+						<img src="img/flowchart_modularization.png" alt="" width="712" height="378" />
+					</figure>
+					<div class="span4">
 						<p><strong>Components, Plugins, Modules, Translations&hellip;</strong> Applications can get pretty difficult to manage with all the small parts you have to keep track of in your codebase. Suddenly, you find yourself trying to have your users install a multi-megabyte package that they only need 20% of.</p>
 						<p>With mangrove, splitting up your big application into separate packages that can be installed separately is <strong>as easy as writing a one line .json file</strong>.</p>
 						<p>(We even automatically generate those annoying .xml files for you, if you want.)</p>
