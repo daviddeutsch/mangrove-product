@@ -259,59 +259,51 @@
 
 			<h2>What's in it for... <strong>Software Developers</strong>?</h2>
 
-			<div ng-controller="TabsCtrl">
-				<div class="row">
-
-					<div class="span4 text-center">
-						<i class="icon-sitemap icon-4x icon-li"></i>
-						<h5><strong>Distributed &amp; Decentralized</strong></h5>
-						<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
-						<button class="btn btn-mini" ng-click="choose(0)"><i class="icon-double-angle-down"></i> Show me how</button>
-					</div>
-
-					<div class="span4 text-center">
-						<i class="icon-puzzle-piece icon-4x icon-li"></i>
-						<h5><strong>Modularize</strong> your projects</h5>
-						<p>Automatically split up your application into packages that can be deployed separately.</p>
-						<button class="btn btn-mini" ng-click="choose(1)"><i class="icon-double-angle-down"></i> Show me how</button>
-					</div>
-
-					<div class="span4 text-center">
-						<i class="icon-github icon-4x icon-li"></i>
-						<h5>Connects to <strong>GitHub</strong></h5>
-						<p>Direct integration, including branches and ticket information. (Integration with other services possible or planned.)</p>
-					</div>
-
+			<div class="row" ng-controller="TabsCtrl">
+				<div class="span4">
+					<i class="icon-sitemap icon-4x icon-li"></i>
+					<h5><strong>Distributed &amp; Decentralized</strong></h5>
+					<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
+					<button class="btn btn-mini" ng-click="choose('fig-distributed')">Show me how <i class="icon-double-angle-right"></i></button>
+					<br />
+					<i class="icon-puzzle-piece icon-4x icon-li"></i>
+					<h5><strong>Modularize</strong> your projects</h5>
+					<p>Automatically split up your application into packages that can be deployed separately.</p>
+					<button class="btn btn-mini" ng-click="choose('fig-modular')">Show me how <i class="icon-double-angle-right"></i></button>
+					<br />
+					<i class="icon-github icon-4x icon-li"></i>
+					<h5>Connects to <strong>GitHub</strong></h5>
+					<p>Direct integration, including branches and ticket information. (Integration with other services possible or planned.)</p>
+					<button class="btn btn-mini" ng-click="choose('fig-github')">Show me how <i class="icon-double-angle-right"></i></button>
 				</div>
 
-				<br />
-
-				<br />
-
-				<div class="row">
-					<figure class="text-center span8 img img-left">
-						<img src="img/flowchart_modularization.png" alt="" width="712" height="378" />
+				<div class="span8">
+					<figure class="text-center img img-right" id="fig-distributed">
+						<img src="img/flowchart_placeholder.png" alt="" width="644" height="330" />
+						<figcaption>
+							<p><strong>Bla bla</strong> bla.</p>
+							<p>Also bla.</p>
+						</figcaption>
 					</figure>
-					<div class="span4">
-						<p><strong>Components, Plugins, Modules, Translations&hellip;</strong> Applications can get pretty difficult to manage with all the small parts you have to keep track of in your codebase. Suddenly, you find yourself trying to have your users install a multi-megabyte package that they only need 20% of.</p>
-						<p>With mangrove, splitting up your big application into separate packages that can be installed separately is <strong>as easy as writing a one line .json file</strong>.</p>
-						<p>(We even automatically generate those annoying .xml files for you, if you want.)</p>
-					</div>
+					<figure class="text-center img img-right" id="fig-modular">
+						<img src="img/flowchart_modularization.png" alt="" width="712" height="378" />
+						<figcaption>
+							<p><strong>Components, Plugins, Modules, Translations&hellip;</strong> Applications can get pretty difficult to manage with all the small parts you have to keep track of in your codebase. Suddenly, you find yourself trying to have your users install a multi-megabyte package that they only need 20% of.</p>
+							<p>With mangrove, splitting up your big application into separate packages that can be installed separately is <strong>as easy as writing a one line .json file</strong>.</p>
+							<p>(We even automatically generate those annoying .xml files for you, if you want.)</p>
+						</figcaption>
+					</figure>
+					<figure class="text-center img img-right" id="fig-github">
+						<img src="img/flowchart_placeholder.png" alt="" width="644" height="330" />
+						<figcaption>
+							<p><strong>Bla bla</strong> bla.</p>
+							<p>Also bla.</p>
+						</figcaption>
+					</figure>
 				</div>
-
-				<span class="separator"><img src="img/line.png" alt="" width="940" height="3" /></span>
-
-				<!--
-						<p class="text-center">
-							<img src="img/flowchart-distributedndecentralized.jpg" />
-							<br />Multiple package vendors produce multiple different applications. Those are pushed into public streams that are then used by clients.
-						</p>
-						<p class="text-center">
-							<img src="img/flowchart-modularize.jpg" />
-							<br />A big, monolithic package already consists of many large parts. These are broken up into several categories - Components, Modules, Plugins, Language Packs and Addons. All of those have their own individual version history and packaging details (like requiring other packages)
-						</p>
-				-->
 			</div>
+
+			<span class="separator"><img src="img/line.png" alt="" width="940" height="3" /></span>
 
 			<div class="row">
 				<div class="span4 text-center">

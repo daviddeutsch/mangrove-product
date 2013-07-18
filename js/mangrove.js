@@ -4,7 +4,6 @@ $( document ).ready(function() {
 
 		var pos = $(window).scrollTop();
 
-
 		$('.jumbotron').css("height", 400-(pos)+"px");
 		$('.jumbotron img').css("margin-top", 24-((pos+24)/8)+"px");
 		$('.jumbotron h3').css("margin-top", "-"+(pos/4)+"px");
@@ -28,7 +27,7 @@ $( document ).ready(function() {
 	});
 });
 
-
+$('figure').slideUp();
 
 var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix']);
 
@@ -37,11 +36,9 @@ function CollapseCtrl($scope) {
 }
 
 function TabsCtrl($scope) {
-	$scope.tabs = [];
-
 	$scope.choose = function(n)
 	{
-		this.tabs[n].select();
+		$('#'+n).slideDown().parent().find('figure[id!="'+n+'"]').slideUp();
 	}
 }
 
