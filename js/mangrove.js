@@ -1,7 +1,6 @@
 
 $( document ).ready(function() {
 	$(window).scroll(function(){
-
 		var pos = $(window).scrollTop();
 
 		$('.jumbotron').css("height", 400-(pos)+"px");
@@ -29,7 +28,16 @@ $( document ).ready(function() {
 
 //$('figure').slideUp();
 
-var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix']);
+var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix'])
+	.config(
+		['$routeProvider', '$locationProvider',
+		function( $routeProvider, $locationProvider ) {
+			$locationProvider
+				.html5Mode(true)
+				.hashPrefix('!');
+		}
+		]
+	);
 
 function CollapseCtrl($scope) {
 	$scope.isCollapsed = false;
@@ -41,6 +49,14 @@ function TabsCtrl($scope) {
 		$('#'+n).slideDown().parent().find('figure[id!="'+n+'"]').slideUp();
 	}
 }
+
+mangroveApp.controller('ScrollCtrl', function($scope, $location, $anchorScroll) {
+	$scope.scrollTo = function(id) {
+		$location.hash(id);
+		$anchorScroll();
+		$('html, body').animate({scrollTop: '-=120px'}, 800, 'easeOutExpo');
+	}
+});
 
 mangroveApp.directive('svgpoly', function ($http, $location) {
 	return {
