@@ -214,70 +214,66 @@
 
 			<br />
 
-			<div class="row">
-				<div class="span4 text-center">
-					<i class="icon-circle-blank icon-4x icon-li"></i>
-					<h5>Install <strong>less</strong></h5>
-					<p class="text-center">
-						<button class="btn btn-mini" >Show me how</button>
-					</p>
+			<div class="row" ng-controller="UserExplanationCtrl">
+				<div class="span4">
+					<ul class="user-explanation">
+						<li ng-click="partial='install-less'">
+							<i class="icon-circle-blank icon-2x icon-li"></i>
+							<h5>Install <strong>less</strong></h5>
+						</li>
+						<li ng-click="partial='install-faster'">
+							<i class="icon-dashboard icon-2x icon-li"></i>
+							<h5>Install <strong>faster</strong></h5>
+						</li>
+						<li ng-click="partial='new-features'">
+							<i class="icon-cloud-download icon-2x icon-li"></i>
+							<h5>Get <strong>new features</strong> faster</h5>
+						</li>
+						<li ng-click="partial='fresh-builds'">
+							<i class="icon-wrench icon-2x icon-li"></i>
+							<h5>Fresh Builds<br /><strong>without the headaches</strong></h5>
+						</li>
+					</ul>
 				</div>
-				<figure class="text-center span8 img img-right">
-					<img src="img/flowchart_install_less.png" class="img-illustration" alt="" width="644" height="330" />
-					<figcaption>
-						<p><strong>You don't need every part of everything.</strong><br />To keep you from installing dozens of individual packages, applications are zipped up into huge containers that simply include everything. So you download and upload a lot more software than you end up using. And then you need to update it.</p>
-					</figcaption>
-				</figure>
-			</div>
-			<div class="row">
-				<div class="span4 text-center">
-					<i class="icon-dashboard icon-4x icon-li"></i>
-					<h5>Install <strong>faster</strong></h5>
-					<p class="text-center">
-						<button class="btn btn-mini" >Show me how</button>
-					</p>
+				<div class="span8">
+					<div ng-show="partial=='install-less'">
+						<figure class="text-center img">
+							<img src="img/flowchart_install_less.png" class="img-illustration" alt="" width="644" height="330" />
+							<figcaption>
+								<p><strong>You don't need every part of everything.</strong><br />To keep you from installing dozens of individual packages, applications are zipped up into huge containers that simply include everything. So you download and upload a lot more software than you end up using. And then you need to update it.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div ng-show="partial=='install-faster'">
+						<figure class="text-center img">
+							<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
+							<figcaption>
+								<p>Including one-click<br />(and automatic)<br />installs and updates.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div ng-show="partial=='new-features'">
+						<figure class="text-center img">
+							<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
+							<figcaption>
+								<p>No more waiting for the next "big" release, get plugins and features ahead of major releases.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div ng-show="partial=='fresh-builds'">
+						<figure class="text-center img">
+							<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
+							<figcaption>
+								<p>mangrove makes using bleeding edge builds both safer and more convenient</p>
+								<p>A user finds a bug and reports it to the support team. They file a bug report and a new branch of the source code is set up. After a fix has been found, the user installs only the fixed branch, not a completely new package.</p>
+								<p>Sometimes, you need to use bleeding edge software. If everything goes right, that gets you all the fixes you need. Unfortunately, however, you may also get some new bugs you didn't want.</p>
+								<p>With mangrove, software developers can split off fixes into separate branches so you only get the version you need, not all the changes that you're not ready for, yet (for instance when receiving support on a bug).</p>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
-				<figure class="text-center span8 img is-hidden">
-					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
-					<figcaption>
-						<p>Including one-click<br />(and automatic)<br />installs and updates.</p>
-					</figcaption>
-				</figure>
 			</div>
-			<div class="row">
-				<div class="span4 text-center">
-					<i class="icon-cloud-download icon-4x icon-li"></i>
-					<h5>Get <strong>new features</strong> faster</h5>
-					<p class="text-center">
-						<button class="btn btn-mini" >Show me how</button>
-					</p>
-				</div>
-				<figure class="text-center span8 img is-hidden">
-					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
-					<figcaption>
-						<p>No more waiting for the next "big" release, get plugins and features ahead of major releases.</p>
-					</figcaption>
-				</figure>
-			</div>
-			<div class="row">
-				<div class="span4 text-center">
-					<i class="icon-wrench icon-4x icon-li"></i>
-					<h5>Fresh Builds<br /><strong>without the headaches</strong></h5>
-					<p class="text-center">
-						<button class="btn btn-mini" >Show me how</button>
-					</p>
-					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
-				</div>
-				<figure class="text-center span8 img is-hidden">
-					<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
-					<figcaption>
-						<p>mangrove makes using bleeding edge builds both safer and more convenient</p>
-						<p>A user finds a bug and reports it to the support team. They file a bug report and a new branch of the source code is set up. After a fix has been found, the user installs only the fixed branch, not a completely new package.</p>
-						<p>Sometimes, you need to use bleeding edge software. If everything goes right, that gets you all the fixes you need. Unfortunately, however, you may also get some new bugs you didn't want.</p>
-						<p>With mangrove, software developers can split off fixes into separate branches so you only get the version you need, not all the changes that you're not ready for, yet (for instance when receiving support on a bug).</p>
-					</figcaption>
-				</figure>
-			</div>
+
 		</section>
 
 		<section id="sitedevelopers" class="section">
