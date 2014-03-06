@@ -7,16 +7,16 @@ $( document ).ready(function() {
 		$('.jumbotron img').css("margin-top", 24-((pos+24)/8)+"px");
 		$('.jumbotron h3').css("margin-top", "-"+(pos/4)+"px");
 
-		if ( pos > 120 ) {
-			$('header h3').fadeOut();
+		if ( pos > 100 ) {
+			$('header h1').fadeOut();
 
-		} else if ( pos < 120 ) {
-			$('header h3').fadeIn();
+		} else if ( pos < 100 ) {
+			$('header h1').fadeIn();
 		}
 
 		if ( pos > 240 ) {
 			if ( pos > 1000 ) {
-				$('body').css("background-position", "0 "+(50+(pos/12))+"px");
+				$('body').css("background-position", "0 "+(pos/12)+"px");
 			} else {
 				$('body').css("background-position", "0 0");
 			}
