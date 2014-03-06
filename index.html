@@ -218,16 +218,16 @@
 				<div class="span4">
 					<ul class="user-explanation">
 						<li ng-click="selected='install-less'" ng-class="'is-active':selected=='install-less'">
-							<h5><i class="icon-circle-blank"></i>Install <strong>less</strong></h5>
+							<h5><i class="icon-circle-blank icon-2x"></i> Install <strong>less</strong></h5>
 						</li>
 						<li ng-click="selected='install-faster'" ng-class="'is-active':selected=='install-faster'">
-							<h5><i class="icon-dashboard"></i>Install <strong>faster</strong></h5>
+							<h5><i class="icon-dashboard icon-2x"></i> Install <strong>faster</strong></h5>
 						</li>
 						<li ng-click="selected='new-features'" ng-class="'is-active':selected=='new-features'">
-							<h5><i class="icon-cloud-download"></i>Get <strong>new features</strong> faster</h5>
+							<h5><i class="icon-cloud-download icon-2x"></i> Get <strong>new features</strong> faster</h5>
 						</li>
 						<li ng-click="selected='fresh-builds'" ng-class="'is-active':selected=='fresh-builds'">
-							<h5><i class="icon-wrench"></i>Fresh Builds<br /><strong>without the headaches</strong></h5>
+							<h5><i class="icon-wrench icon-2x"></i> Fresh Builds<br /><strong>without the headaches</strong></h5>
 						</li>
 					</ul>
 				</div>
@@ -317,101 +317,86 @@
 
 			<h2>What's in it for... <strong>Software Developers</strong>?</h2>
 
-			<div class="row" ng-controller="TabsCtrl">
+
+			<div class="row" ng-controller="SoftwareDevExplanationCtrl">
 				<div class="span4">
-					<i class="icon-sitemap icon-4x icon-li"></i>
-					<h5><strong>Distributed &amp; Decentralized</strong></h5>
-					<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
-					<button class="btn btn-mini" ng-click="choose('fig-distributed')">Show me how <i class="icon-double-angle-right"></i></button>
-					<br />
-					<i class="icon-puzzle-piece icon-4x icon-li"></i>
-					<h5><strong>Modularize</strong> your projects</h5>
-					<p>Automatically split up your application into packages that can be deployed separately.</p>
-					<button class="btn btn-mini" ng-click="choose('fig-modular')">Show me how <i class="icon-double-angle-right"></i></button>
-					<br />
-					<i class="icon-github icon-4x icon-li"></i>
-					<h5>Connects to <strong>GitHub</strong></h5>
-					<p>Direct integration, including branches and ticket information. (Integration with other services possible or planned.)</p>
-					<button class="btn btn-mini" ng-click="choose('fig-github')">Show me how <i class="icon-double-angle-right"></i></button>
+					<ul class="user-explanation">
+						<li ng-click="selected='distributed'" ng-class="'is-active':selected=='distributed'">
+							<h5><i class="icon-sitemap icon-2x"></i> <strong>Distributed &amp; Decentralized</strong></h5>
+						</li>
+						<li ng-click="selected='modularize'" ng-class="'is-active':selected=='modularize'">
+							<h5><i class="icon-puzzle-piece icon-2x"></i> <strong>Modularize</strong> your projects</h5>
+						</li>
+						<li ng-click="selected='github'" ng-class="'is-active':selected=='github'">
+							<h5><i class="icon-github icon-2x"></i> Connects to <strong>GitHub</strong></h5>
+						</li>
+						<li ng-click="selected='aec'" ng-class="'is-active':selected=='aec'">
+							<h5><i class="icon-eur icon-2x"></i> Integrates with <strong>AEC</strong></h5>
+						</li>
+						<li ng-click="selected='push-deploy'" ng-class="'is-active':selected=='push-deploy'">
+							<h5><i class="icon-rocket icon-2x"></i> <strong>Push-to-Deploy</strong></h5>
+						</li>
+						<li ng-click="selected='proper-git'" ng-class="'is-active':selected=='proper-git'">
+							<h5><i class="icon-code-fork icon-2x"></i> Makes <strong>proper use of git</strong></h5>
+						</li>
+					</ul>
 				</div>
-
 				<div class="span8">
-					<figure class="text-center img img-right" id="fig-distributed">
-						<img src="img/flowchart_placeholder.png" alt="" width="644" height="330" />
-						<figcaption>
-							<p><strong>Bla bla</strong> bla.</p>
-							<p>Also bla.</p>
-						</figcaption>
-					</figure>
-					<figure class="text-center img img-right" id="fig-modular">
-						<img src="img/flowchart_modularization.png" alt="" width="712" height="378" />
-						<figcaption>
-							<p><strong>Components, Plugins, Modules, Translations&hellip;</strong> Applications can get pretty difficult to manage with all the small parts you have to keep track of in your codebase. Suddenly, you find yourself trying to have your users install a multi-megabyte package that they only need 20% of.</p>
-							<p>With mangrove, splitting up your big application into separate packages that can be installed separately is <strong>as easy as writing a one line .json file</strong>.</p>
-							<p>(We even automatically generate those annoying .xml files for you, if you want.)</p>
-						</figcaption>
-					</figure>
-					<figure class="text-center img img-right" id="fig-github">
-						<img src="img/flowchart_placeholder.png" alt="" width="644" height="330" />
-						<figcaption>
-							<p><strong>Bla bla</strong> bla.</p>
-							<p>Also bla.</p>
-						</figcaption>
-					</figure>
-				</div>
-			</div>
+					<div ng-show="selected=='distributed'">
+						<p>Where other solutions try to bind you to them as a service, mangrove is set up to be decentralized. However, since it has networking capabilities built in, developers can link up and form a distributed network.</p>
 
-			<span class="separator"><img src="img/line.png" alt="" width="940" height="3" /></span>
-
-			<div class="row">
-				<div class="span4 text-center">
-					<i class="icon-eur icon-4x icon-li"></i>
-					<h5>Integrates with <strong>AEC</strong></h5>
-					<p>Ready-to-go, Ready-to-sell: With joomla, AEC and mangrove, you're ready to have your business set up in no-time. Set up memberships for individual software packages and restrict the number of connected sites, if you want to.</p>
-					<div ng-controller="CollapseCtrl">
-						<p class="text-center">
-							<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
-						</p>
-						<div collapse="!isCollapsed">
-							<p class="text-center">
-								<img src="http://placehold.it/660x450&amp;text=Ready%20to%20sell" alt="" />
-								<br />When setting up AEC, an integration with the mangrove server can be set up. That automatically checks back with the server to find out which permissions could be set for users. When a user purchases a plan, the serer is queried and sets the correct permissions.
-							</p>
-						</div>
+						<figure class="text-center img img-right" id="fig-distributed">
+							<img src="img/flowchart_placeholder.png" alt="" width="644" height="330" />
+							<figcaption>
+								<p><strong>Bla bla</strong> bla.</p>
+								<p>Also bla.</p>
+							</figcaption>
+						</figure>
 					</div>
-				</div>
-				<div class="span4 text-center">
-					<i class="icon-rocket icon-4x icon-li"></i>
-					<h5><strong>Push-to-Deploy</strong></h5>
-					<p>One push to your repository and a few moments later, a new package is available to your clients. (Or, with automatic updates, is already installed for your clients.)</p>
-					<div ng-controller="CollapseCtrl">
-						<p class="text-center">
-							<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
-						</p>
-						<div collapse="!isCollapsed">
-							<p class="text-center">
-								<img src="img/flowchart-pushtodeploy.jpg" alt="" />
-								<br />A developer creates a new commit and pushes that to the repository. This in turn triggers a build on the mangrove server. This creates a new package which is served to clients.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="span4 text-center">
-					<i class="icon-code-fork icon-4x icon-li"></i>
-					<h5>Makes <strong>proper use of git</strong></h5>
-					<p>Understands <strong>branches</strong> and uses <strong>semantic versioning</strong> automatically.</p>
-					<p><strong>Wait a minute!</strong> How does it do automatic version numbers?</p>
+					<div ng-show="selected=='modularize'">
+						<p>Automatically split up your application into packages that can be deployed separately.</p>
 
-					<div ng-controller="CollapseCtrl">
+						<figure class="text-center img img-right" id="fig-modular">
+							<img src="img/flowchart_modularization.png" alt="" width="712" height="378" />
+							<figcaption>
+								<p><strong>Components, Plugins, Modules, Translations&hellip;</strong> Applications can get pretty difficult to manage with all the small parts you have to keep track of in your codebase. Suddenly, you find yourself trying to have your users install a multi-megabyte package that they only need 20% of.</p>
+								<p>With mangrove, splitting up your big application into separate packages that can be installed separately is <strong>as easy as writing a one line .json file</strong>.</p>
+								<p>(We even automatically generate those annoying .xml files for you, if you want.)</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div ng-show="selected=='github'">
+						<p>Direct integration, including branches and ticket information. (Integration with other services possible or planned.)</p>
+
+						<figure class="text-center img img-right" id="fig-github">
+							<img src="img/flowchart_placeholder.png" alt="" width="644" height="330" />
+							<figcaption>
+								<p><strong>Bla bla</strong> bla.</p>
+								<p>Also bla.</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div ng-show="selected=='aec'">
+						<p>Ready-to-go, Ready-to-sell: With joomla, AEC and mangrove, you're ready to have your business set up in no-time. Set up memberships for individual software packages and restrict the number of connected sites, if you want to.</p>
 						<p class="text-center">
-							<button class="btn btn-mini" ng-click="isCollapsed = !isCollapsed">Show me how</button>
+							<img src="http://placehold.it/660x450&amp;text=Ready%20to%20sell" alt="" />
+							<br />When setting up AEC, an integration with the mangrove server can be set up. That automatically checks back with the server to find out which permissions could be set for users. When a user purchases a plan, the serer is queried and sets the correct permissions.
 						</p>
-						<div collapse="!isCollapsed">
-							<p class="text-center">
-								<img src="http://placehold.it/660x450&amp;text=Semantic%20Versioning%20and%20branches" alt="" />
-								<br />When a commit is applied to a repository, mangrove server checks which packages are affected and increments their version number according to the number of changes, individually. Branches carry their own version numbers and on a merge, these are joined up.
-							</p>
-						</div>
+					</div>
+					<div ng-show="selected=='push-deploy'">
+						<p>One push to your repository and a few moments later, a new package is available to your clients. (Or, with automatic updates, is already installed for your clients.)</p>
+						<p class="text-center">
+							<img src="img/flowchart-pushtodeploy.jpg" alt="" />
+							<br />A developer creates a new commit and pushes that to the repository. This in turn triggers a build on the mangrove server. This creates a new package which is served to clients.
+						</p>
+					</div>
+					<div ng-show="selected=='proper-git'">
+						<p>Understands <strong>branches</strong> and uses <strong>semantic versioning</strong> automatically.</p>
+						<p><strong>Wait a minute!</strong> How does it do automatic version numbers?</p>
+						<p class="text-center">
+							<img src="http://placehold.it/660x450&amp;text=Semantic%20Versioning%20and%20branches" alt="" />
+							<br />When a commit is applied to a repository, mangrove server checks which packages are affected and increments their version number according to the number of changes, individually. Branches carry their own version numbers and on a merge, these are joined up.
+						</p>
 					</div>
 				</div>
 			</div>

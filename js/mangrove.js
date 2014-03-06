@@ -76,6 +76,16 @@ mangroveApp
 );
 
 mangroveApp
+	.controller('SoftwareDevExplanationCtrl',
+		['$scope',
+			function($scope)
+			{
+				$scope.selected = 'distributed';
+			}
+		]
+	);
+
+mangroveApp
 	.controller('ScrollCtrl',
 	['$scope', '$location', '$anchorScroll',
 	function($scope, $location, $anchorScroll)
