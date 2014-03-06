@@ -9,7 +9,6 @@ $( document ).ready(function() {
 
 		if ( pos > 100 ) {
 			$('header h1').fadeOut();
-
 		} else if ( pos < 100 ) {
 			$('header h1').fadeIn();
 		}
@@ -43,20 +42,52 @@ function CollapseCtrl($scope) {
 	$scope.isCollapsed = false;
 }
 
-function TabsCtrl($scope) {
-	$scope.choose = function(n)
-	{
-		$('#'+n).slideDown().parent().find('figure[id!="'+n+'"]').slideUp();
-	}
-}
 
-mangroveApp.controller('ScrollCtrl', function($scope, $location, $anchorScroll) {
-	$scope.scrollTo = function(id) {
-		$location.hash(id);
-		$anchorScroll();
-		$('html, body').animate({scrollTop: '-=120px'}, 800, 'easeOutExpo');
+mangroveApp
+	.controller('CollapseCtrl',
+	['$scope',
+	function($scope)
+	{
+		$scope.isCollapsed = false;
 	}
-});
+	]
+);
+
+mangroveApp
+	.controller('TabsCtrl',
+	['$scope',
+	function($scope)
+	{
+		$scope.choose = function(n) {
+			$('#'+n).slideDown().parent().find('figure[id!="'+n+'"]').slideUp();
+		}
+	}
+	]
+);
+
+mangroveApp
+	.controller('UserExplanationCtrl',
+	['$scope',
+	function($scope)
+	{
+		$scope.selected = 'install-less';
+	}
+	]
+);
+
+mangroveApp
+	.controller('ScrollCtrl',
+	['$scope', '$location', '$anchorScroll',
+	function($scope, $location, $anchorScroll)
+	{
+		$scope.scrollTo = function(id) {
+			$location.hash(id);
+			$anchorScroll();
+			$('html, body').animate({scrollTop: '-=200px'}, 800, 'easeOutExpo');
+		}
+	}
+	]
+);
 
 mangroveApp.directive('svgpoly', function ($http, $location) {
 	return {

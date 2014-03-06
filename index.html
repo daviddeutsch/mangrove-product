@@ -217,26 +217,22 @@
 			<div class="row" ng-controller="UserExplanationCtrl">
 				<div class="span4">
 					<ul class="user-explanation">
-						<li ng-click="partial='install-less'">
-							<i class="icon-circle-blank icon-2x icon-li"></i>
-							<h5>Install <strong>less</strong></h5>
+						<li ng-click="selected='install-less'" ng-class="'is-active':selected=='install-less'">
+							<h5><i class="icon-circle-blank"></i>Install <strong>less</strong></h5>
 						</li>
-						<li ng-click="partial='install-faster'">
-							<i class="icon-dashboard icon-2x icon-li"></i>
-							<h5>Install <strong>faster</strong></h5>
+						<li ng-click="selected='install-faster'" ng-class="'is-active':selected=='install-faster'">
+							<h5><i class="icon-dashboard"></i>Install <strong>faster</strong></h5>
 						</li>
-						<li ng-click="partial='new-features'">
-							<i class="icon-cloud-download icon-2x icon-li"></i>
-							<h5>Get <strong>new features</strong> faster</h5>
+						<li ng-click="selected='new-features'" ng-class="'is-active':selected=='new-features'">
+							<h5><i class="icon-cloud-download"></i>Get <strong>new features</strong> faster</h5>
 						</li>
-						<li ng-click="partial='fresh-builds'">
-							<i class="icon-wrench icon-2x icon-li"></i>
-							<h5>Fresh Builds<br /><strong>without the headaches</strong></h5>
+						<li ng-click="selected='fresh-builds'" ng-class="'is-active':selected=='fresh-builds'">
+							<h5><i class="icon-wrench"></i>Fresh Builds<br /><strong>without the headaches</strong></h5>
 						</li>
 					</ul>
 				</div>
 				<div class="span8">
-					<div ng-show="partial=='install-less'">
+					<div ng-show="selected=='install-less'">
 						<figure class="text-center img">
 							<img src="img/flowchart_install_less.png" class="img-illustration" alt="" width="644" height="330" />
 							<figcaption>
@@ -244,7 +240,7 @@
 							</figcaption>
 						</figure>
 					</div>
-					<div ng-show="partial=='install-faster'">
+					<div ng-show="selected=='install-faster'">
 						<figure class="text-center img">
 							<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
 							<figcaption>
@@ -252,7 +248,7 @@
 							</figcaption>
 						</figure>
 					</div>
-					<div ng-show="partial=='new-features'">
+					<div ng-show="selected=='new-features'">
 						<figure class="text-center img">
 							<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
 							<figcaption>
@@ -260,7 +256,7 @@
 							</figcaption>
 						</figure>
 					</div>
-					<div ng-show="partial=='fresh-builds'">
+					<div ng-show="selected=='fresh-builds'">
 						<figure class="text-center img">
 							<img src="img/flowchart_placeholder.png" class="img-illustration" alt="" width="644" height="330" />
 							<figcaption>
