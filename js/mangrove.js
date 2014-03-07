@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
 //$('figure').slideUp();
 
-var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix'])
+var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix', 'scrollto'])
 	.config(
 		['$locationProvider',
 		function( $locationProvider ) {
