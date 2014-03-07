@@ -93,7 +93,7 @@ mangroveApp
 		$scope.scrollTo = function(id) {
 			$location.hash(id);
 			$anchorScroll();
-			$('html, body').animate({scrollTop: '-=120px'}, 800, 'easeOutExpo');
+			$('html, body').animate({scrollTop: '-=80px'}, 800, 'easeOutExpo');
 		}
 	}
 	]
