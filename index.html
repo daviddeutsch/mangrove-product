@@ -217,7 +217,7 @@
 
 		<nav class="menu submenu" ui-scrollfix="-360" role="navigation">
 			<p class="text-center">
-				<a ng-click="scrollTo('regularusers')">Regular Users</a> · <a ng-click="scrollTo('sitedevelopers')">Website Developers</a> · <a ng-click="scrollTo('softwaredevelopers')">Software Developers</a>
+				<a ng-click="scrollToLower('regularusers')">Regular Users</a> · <a ng-click="scrollToLower('sitedevelopers')">Website Developers</a> · <a ng-click="scrollToLower('softwaredevelopers')">Software Developers</a>
 			</p>
 		</nav>
 
@@ -309,6 +309,7 @@
 		<section id="softwaredevelopers" class="section">
 			<h2>What's in it for... <strong>Software Developers</strong>?</h2>
 
+			<br />
 
 			<div class="row" ng-controller="SoftwareDevExplanationCtrl">
 				<div class="span4">

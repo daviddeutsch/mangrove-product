@@ -91,7 +91,13 @@ mangroveApp
 			$location.hash(id);
 			$anchorScroll();
 			$('html, body').animate({scrollTop: '-=80px'}, 800, 'easeOutExpo');
-		}
+		};
+
+		$scope.scrollToLower = function(id) {
+			$location.hash(id);
+			$anchorScroll();
+			$('html, body').animate({scrollTop: '-=110px'}, 800, 'easeOutExpo');
+		};
 	}
 	]
 );
