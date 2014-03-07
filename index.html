@@ -29,8 +29,11 @@
 		<nav class="menu" ui-scrollfix="-260" role="navigation">
 			<p class="text-center">
 				<span class="scrollshow"><img src="img/mangrove-logo-tiny.png" alt="Mangrove, Package Management Tool" /></span>
-				<span class="menu-text"><a ng-click="scrollTo('packagemanager')">Package Management</a> for: </span>
-				<a ng-click="scrollTo('regularusers')">Regular Users</a> | <a ng-click="scrollTo('sitedevelopers')">Website Developers</a> | <a ng-click="scrollTo('softwaredevelopers')">Software Developers</a>
+				<span class="menu-text">
+					<a ng-click="scrollTo('packagemanager')">Package Management</a>
+					that is <a ng-click="scrollTo('different')">kind of different</a>
+					and made <a ng-click="scrollTo('foryou')">for you</a>
+				</span>
 			</p>
 		</nav>
 	</div>
@@ -112,7 +115,7 @@
 				</figure>
 			</div>
 
-			<h2>How is <strong>mangrove</strong> different?</h2>
+			<h2 id="different">How is <strong>mangrove</strong> different?</h2>
 			<div class="row" style="vertical-align: top;">
 				<div class="span3">
 					<img class="img-span3" src="img/whymangrove_mangrove.jpg" alt="" width="300" height="482" />
@@ -168,46 +171,53 @@
 				</div>
 			</div>
 
-			<span class="separator"><img src="img/line.png" alt="" width="940" height="3" /></span>
+		</section>
 
-			<br />
-			<h2 class="text-center">Who are <strong>you</strong>?</h2>
-			<br />
-			<div class="row">
-				<div class="span4 text-center">
-					<div class="bubble">
-						<i class="icon-group icon-4x"></i>
-						<p class="bubble-big">I am a<br />regular <strong>user</strong></p>
-						<p>I build my own<br />website(s)</p>
-					</div>
-					<br />
-					<p><a ng-click="scrollTo('regularusers')"><i class="icon-double-angle-down"></i> what's in it for me?</a></p>
+		<span class="separator"><img src="img/line.png" alt="" width="940" height="3" /></span>
+
+		<br />
+		<h2 class="text-center" id="foryou">Who are <strong>you</strong>?</h2>
+		<br />
+		<div class="row">
+			<div class="span4 text-center">
+				<div class="bubble">
+					<i class="icon-group icon-4x"></i>
+					<p class="bubble-big">I am a<br />regular <strong>user</strong></p>
+					<p>I build my own<br />website(s)</p>
 				</div>
-				<div class="span4 text-center">
-					<div class="bubble">
+				<br />
+				<p><a ng-click="scrollTo('regularusers')"><i class="icon-double-angle-down"></i> what's in it for me?</a></p>
+			</div>
+			<div class="span4 text-center">
+				<div class="bubble">
 						<span class="icon-stack icon-2x">
 							<i class="icon-desktop icon-stack-base"></i>
 							<i class="icon-th" style="margin-top:-10px; margin-left: 3px"></i>
 						</span>
-						<p class="bubble-big">I'm a <strong>website<br />developer</strong></p>
-						<p>I make websites for<br />other people</p>
-					</div>
-					<br />
-					<p><a ng-click="scrollTo('sitedevelopers')"><i class="icon-double-angle-down"></i> what's in it for me?</a></p>
+					<p class="bubble-big">I'm a <strong>website<br />developer</strong></p>
+					<p>I make websites for<br />other people</p>
 				</div>
-				<div class="span4 text-center">
-					<div class="bubble">
-						<i class="icon-keyboard icon-4x"></i>
-						<p class="bubble-big">I'm a <strong>software<br />developer</strong></p>
-						<p>I code my own<br />software</p>
-					</div>
-					<br />
-					<p><a ng-click="scrollTo('softwaredevelopers')"><i class="icon-double-angle-down"></i> what's in it for me?</a></p>
-				</div>
+				<br />
+				<p><a ng-click="scrollTo('sitedevelopers')"><i class="icon-double-angle-down"></i> what's in it for me?</a></p>
 			</div>
-		</section>
+			<div class="span4 text-center">
+				<div class="bubble">
+					<i class="icon-keyboard icon-4x"></i>
+					<p class="bubble-big">I'm a <strong>software<br />developer</strong></p>
+					<p>I code my own<br />software</p>
+				</div>
+				<br />
+				<p><a ng-click="scrollTo('softwaredevelopers')"><i class="icon-double-angle-down"></i> what's in it for me?</a></p>
+			</div>
+		</div>
 
 		<span class="separator"><img src="img/line.png" alt="" width="940" height="3" /></span>
+
+		<nav class="menu submenu" ui-scrollfix role="navigation">
+			<p class="text-center">
+				<a ng-click="scrollTo('regularusers')">Regular Users</a> | <a ng-click="scrollTo('sitedevelopers')">Website Developers</a> | <a ng-click="scrollTo('softwaredevelopers')">Software Developers</a>
+			</p>
+		</nav>
 
 		<section id="regularusers" class="section">
 			<h2>What's in it for... <strong>Regular Users</strong>?</h2>
