@@ -31,6 +31,7 @@ var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix']
 	.config(
 		['$locationProvider',
 		function( $locationProvider ) {
+			$locationProvider.html5Mode(true);
 		}
 		]
 	);
