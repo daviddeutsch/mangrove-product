@@ -143,7 +143,7 @@ mangroveApp
 					scroll = $elm.offset().top;
 				}
 
-				$("body").animate(
+				$('html, body').animate(
 					{scrollTop: scroll+settings.offset},
 					settings.duration,
 					settings.easing
