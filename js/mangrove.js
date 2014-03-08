@@ -127,15 +127,27 @@ mangroveApp
 	return {
 		restrict: 'A',
 		link: function(scope, $elm, attrs) {
-			var idToScroll = attrs.href;
+			var settings = angular.extend({
+				href: angular.element(),
+				offset: 0,
+				duration: 800,
+				easing: 'easeOutExpo'
+			}, attrs);
+
 			$elm.on('click', function() {
-				var $target;
-				if (idToScroll) {
-					$target = $(idToScroll);
+				var scroll;
+
+				if (settings.href) {
+					scroll = $(settings.href).offset().top;
 				} else {
-					$target = $elm;
+					scroll = $elm.offset().top;
 				}
-				$("body").animate({scrollTop: $target.offset().top}, 800, 'easeOutExpo');
+
+				$("body").animate(
+					{scrollTop: scroll+settings.offset},
+					settings.duration,
+					settings.easing
+				);
 			});
 		}
 	}
