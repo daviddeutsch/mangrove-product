@@ -36,33 +36,6 @@ var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix']
 		]
 	);
 
-function CollapseCtrl($scope) {
-	$scope.isCollapsed = false;
-}
-
-
-mangroveApp
-	.controller('CollapseCtrl',
-	['$scope',
-	function($scope)
-	{
-		$scope.isCollapsed = false;
-	}
-	]
-);
-
-mangroveApp
-	.controller('TabsCtrl',
-	['$scope',
-	function($scope)
-	{
-		$scope.choose = function(n) {
-			$('#'+n).slideDown().parent().find('figure[id!="'+n+'"]').slideUp();
-		}
-	}
-	]
-);
-
 mangroveApp
 	.controller('UserExplanationCtrl',
 	['$scope',
@@ -82,26 +55,6 @@ mangroveApp
 			}
 		]
 	);
-
-mangroveApp
-	.controller('ScrollCtrl',
-	['$scope', '$location', '$anchorScroll',
-	function($scope, $location, $anchorScroll)
-	{
-		$scope.scrollTo = function(id) {
-			$location.hash(id);
-			$anchorScroll();
-			$('html, body').animate({scrollTop: '-=80px'}, 800, 'easeOutExpo');
-		};
-
-		$scope.scrollToLower = function(id) {
-			$location.hash(id);
-			$anchorScroll();
-			$('html, body').animate({scrollTop: '-=110px'}, 800, 'easeOutExpo');
-		};
-	}
-	]
-);
 
 mangroveApp
 	.directive('svgpoly', function ($http, $location) {
@@ -134,17 +87,19 @@ mangroveApp
 				easing: 'easeOutExpo'
 			}, attrs);
 
-			$elm.on('click', function() {
+			$elm.on('click', function(e) {
+				e.preventDefault();
+
 				var scroll;
 
 				if (settings.href) {
-					scroll = $(settings.href).offset().top;
+					scroll = $(settings.href).offset().top + Number(settings.offset);
 				} else {
-					scroll = $elm.offset().top;
+					scroll = $elm.offset().top + Number(settings.offset);
 				}
 
 				$('html, body').animate(
-					{scrollTop: scroll+settings.offset},
+					{scrollTop: scroll},
 					settings.duration,
 					settings.easing
 				);

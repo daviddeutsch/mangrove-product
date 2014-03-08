@@ -15,7 +15,7 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular-animate.min.js"></script>
 </head>
-<body ng-controller="ScrollCtrl">
+<body>
 
 	<header id="overview" class="jumbotron subhead" role="banner">
 		<div class="container container-header">
@@ -217,7 +217,7 @@
 
 		<nav class="menu submenu" ui-scrollfix="-360" role="navigation">
 			<p class="text-center">
-				<a ng-click="scrollToLower('regularusers')">Regular Users</a> · <a ng-click="scrollToLower('sitedevelopers')">Website Developers</a> · <a ng-click="scrollToLower('softwaredevelopers')">Software Developers</a>
+				<a scroll-on-click offset="-110" href="#regularusers">Regular Users</a> · <a scroll-on-click offset="-110" href="#sitedevelopers">Website Developers</a> · <a scroll-on-click offset="-110" href="#softwaredevelopers">Software Developers</a>
 			</p>
 		</nav>
 
