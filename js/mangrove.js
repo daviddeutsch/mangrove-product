@@ -31,7 +31,7 @@ var mangroveApp = angular.module("mangroveApp", ['ui.bootstrap', 'ui.scrollfix']
 	.config(
 		['$locationProvider',
 		function( $locationProvider ) {
-			$locationProvider.html5Mode(true);
+			$locationProvider.html5Mode(false).hashPrefix('!');;
 		}
 		]
 	);
@@ -76,7 +76,7 @@ mangroveApp
 });
 
 mangroveApp
-	.directive('scrollOnClick', function() {
+	.directive('scrollOnClick', function($location) {
 	return {
 		restrict: 'A',
 		link: function(scope, $elm, attrs) {
@@ -87,13 +87,17 @@ mangroveApp
 				easing: 'easeOutExpo'
 			}, attrs);
 
+			settings.href = settings.href.replace('index.html#!/','');
+
 			$elm.on('click', function(e) {
-				e.preventDefault();
+				//e.preventDefault();
 
 				var scroll;
 
 				if (settings.href) {
-					scroll = $(settings.href).offset().top + Number(settings.offset);
+					scroll = $('#'+settings.href).offset().top + Number(settings.offset);
+
+					$location.hash(settings.href);
 				} else {
 					scroll = $elm.offset().top + Number(settings.offset);
 				}
