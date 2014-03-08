@@ -103,7 +103,8 @@ mangroveApp
 	]
 );
 
-mangroveApp.directive('svgpoly', function ($http, $location) {
+mangroveApp
+	.directive('svgpoly', function ($http, $location) {
 	return {
 		restrict: 'E',
 		link: function ( scope, element, attrs ) {
@@ -117,6 +118,25 @@ mangroveApp.directive('svgpoly', function ($http, $location) {
 				});
 			}
 
+		}
+	}
+});
+
+mangroveApp
+	.directive('scrollOnClick', function() {
+	return {
+		restrict: 'A',
+		link: function(scope, $elm, attrs) {
+			var idToScroll = attrs.href;
+			$elm.on('click', function() {
+				var $target;
+				if (idToScroll) {
+					$target = $(idToScroll);
+				} else {
+					$target = $elm;
+				}
+				$("body").animate({scrollTop: $target.offset().top}, "slow");
+			});
 		}
 	}
 });
