@@ -87,7 +87,7 @@ mangroveApp
 				easing: 'easeOutExpo'
 			}, attrs);
 
-			settings.href = settings.href.replace('index.html#!/','');
+			settings.href = settings.href.replace('#!/','');
 
 			$elm.on('click', function(e) {
 				//e.preventDefault();
