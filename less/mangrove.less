@@ -1,6 +1,7 @@
 @import url("bootstrap/bootstrap.less");
 @import url("bootswatch-yeti/variables.less");
-@import url("bootswatch-yeti/bootswatch.less");
+//@import url("bootswatch-yeti/bootswatch.less");
+@import url("bootflat.less");
 @import url("fontawesome/font-awesome.less");
 
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600,700,300);
@@ -39,10 +40,9 @@ a {
 .jumbotron {
 	background-color: transparent !important;
 	color: #fff;
-	height: 420px;
 	padding: 32px 0;
 	text-align: center;
-	overflow: hidden;
+	box-shadow: none;
 	.container {
 		margin-top: 3%;
 	}
@@ -249,6 +249,11 @@ ul.user-explanation {
 	padding-top: 6px;
 	opacity: 0.95;
 	border-bottom: 1px solid #aaa;
+	-webkit-transition: 800ms cubic-bezier(0.19, 1, 0.22, 1) all;
+	-moz-transition: 800ms cubic-bezier(0.19, 1, 0.22, 1) all;
+	-ms-transition: 800ms cubic-bezier(0.19, 1, 0.22, 1) all;
+	-o-transition: 800ms cubic-bezier(0.19, 1, 0.22, 1) all;
+	transition: 800ms cubic-bezier(0.19, 1, 0.22, 1) all;
 	.scrollshow {
 		opacity: 1;
 		margin-left: 0;
@@ -264,6 +269,22 @@ tabset {
 	}
 	.nav-tabs {
 		border: none;
+	}
+}
+
+.tabs-left {
+	overflow: hidden;
+	.nav-tabs {
+		height: 500px;
+		&-long {
+			height: 660px;
+		}
+	}
+	li a {
+		text-align: center;
+	}
+	.tab-content div {
+		margin-left: 240px;
 	}
 }
 
