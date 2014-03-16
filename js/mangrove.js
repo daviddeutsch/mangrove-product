@@ -13,13 +13,9 @@ $( document ).ready(function() {
 			$('header h1').fadeIn();
 		}
 
-		if ( pos > 240 ) {
-			if ( pos > 1000 ) {
-				$('body').css("background-position", "0 "+(pos/14)+"px");
-			} else {
-				$('body').css("background-position", "0 0");
-			}
-		} else if ( pos < 240 ) {
+		if ( pos > 1200 ) {
+			$('body').css("background-position", "0 "+(pos/14)+"px");
+		} else if ( pos < 940 ) {
 			$('body').css("background-position", "0 -"+(pos/4)+"px");
 		}
 	});
