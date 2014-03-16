@@ -3,8 +3,10 @@ $( document ).ready(function() {
 	$(window).scroll(function(){
 		var pos = $(window).scrollTop();
 
-		$('.jumbotron').css("height", 300-(pos/2)+"px");
-		$('.jumbotron .container').css("margin-top", 60-((pos+24)/2)+"px");
+		if ( pos < 500 ) {
+			$('.jumbotron').css("height", 300-(pos/2)+"px");
+			$('.jumbotron .container').css("margin-top", 60-((pos+24)/2)+"px");
+		}
 
 		if ( pos > 100 ) {
 			$('header h1').fadeOut();

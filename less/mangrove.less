@@ -37,6 +37,10 @@ a {
 	}
 }
 
+strong {
+	font-weight: 600;
+}
+
 .jumbotron {
 	background-color: transparent !important;
 	color: #fff;
@@ -114,8 +118,12 @@ br.shallow {
 	h4, p, i {
 		color: #fff;
 	}
+	p {
+		font-weight: 100;
+		line-height: .9em;
+	}
 	&-big {
-		line-height: .833em;
+		line-height: .9em;
 		margin: .417em 0;
 	}
 }
@@ -125,16 +133,14 @@ br.shallow {
 	line-height: 130%;
 }
 
-h2,
 .keytext,
 .bubble-big {
 	font-family: @font-family-sans-serif;
-	font-size: 22px;
-	font-weight: 500;
+	font-size: 18px;
+	font-weight: 500 !important;
 }
 
-h3 {
-	font-size: 26px;
+h4 {
 	text-align: center;
 }
 
@@ -309,14 +315,14 @@ aside {
 @keyframes rotate-word { .mixin-rotate-word; }
 
 .mixin-rotate-length() {
-	from { margin-right: 216px; }
-	25% { margin-right: 216px; }
-	35% { margin-right: 108px; }
-	55% { margin-right: 108px; }
-	70% { margin-right: 254px; }
-	92% { margin-right: 254px; }
-	99% { margin-right: 216px; }
-	to { margin-right: 216px; }
+	from { margin-right: 242px; }
+	25% { margin-right: 242px; }
+	35% { margin-right: 120px; }
+	55% { margin-right: 120px; }
+	70% { margin-right: 282px; }
+	92% { margin-right: 282px; }
+	99% { margin-right: 244px; }
+	to { margin-right: 242px; }
 }
 
 @-webkit-keyframes rotate-length { .mixin-rotate-length; }
